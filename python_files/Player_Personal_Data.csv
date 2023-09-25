@@ -1,0 +1,554 @@
+id,firstname,lastname,college,affiliation,date,country,start,pro,pounds,jersey,active,pos,height(in)
+2,Quincy,Acy,Baylor,Baylor/USA,1990-10-06,USA,2012,6,240,4,True,F,79
+8,LaMarcus,Aldridge,Texas-Austin,Texas-Austin/USA,1985-07-19,USA,2006,15,250,21,True,C-F,83
+11,Tony,Allen,Oklahoma State,Oklahoma State/USA,1982-01-11,USA,2004,12,213,9,False,G-F,76
+15,Alan,Anderson,Michigan State,Michigan State/USA,1982-10-16,USA,2005,7,220,9,False,F-G,78
+17,Justin,Anderson,Virginia,Virginia/USA,1993-11-19,USA,2015,5,231,10,True,F-G,77
+18,Kyle,Anderson,UCLA,UCLA/USA,1993-09-20,USA,2014,7,230,5,True,F-G,81
+21,Carmelo,Anthony,Syracuse,Syracuse/USA,1984-05-29,USA,2003,18,238,7,True,F,79
+28,D.J.,Augustin,Texas-Austin,Texas-Austin/USA,1987-11-10,USA,2008,13,183,4,True,G,71
+36,Harrison,Barnes,North Carolina,North Carolina/USA,1992-05-30,USA,2012,9,225,40,True,F,80
+38,Will,Barton,Memphis,Memphis/USA,1991-01-06,USA,2012,9,181,5,True,G,77
+39,Brandon,Bass,Louisiana State,Louisiana State/USA,1985-04-30,USA,2005,11,250,30,False,F,80
+44,Kent,Bazemore,Old Dominion,Old Dominion/USA,1989-07-01,USA,2012,9,195,24,True,G-F,76
+45,Bradley,Beal,Florida,Florida/USA,1993-06-28,USA,2012,9,207,3,True,G,76
+46,Malik,Beasley,Florida State,Florida State/USA,1996-11-26,USA,2016,5,187,5,True,G,76
+47,Michael,Beasley,Kansas State,Kansas State/USA,1989-01-09,USA,2008,11,230,30,True,F,81
+53,Patrick,Beverley,Arkansas,Arkansas/USA,1988-07-12,USA,2012,9,180,21,True,G,73
+56,Tarik,Black,Kansas,Kansas/USA,1991-11-22,USA,2014,4,260,28,True,F,81
+59,Eric,Bledsoe,Kentucky,Kentucky/USA,1989-12-09,USA,2010,11,214,5,True,G,73
+64,Devin,Booker,Kentucky,Kentucky/USA,1996-10-30,USA,2015,6,206,1,True,G,77
+65,Trevor,Booker,Clemson,Clemson/USA,1987-11-25,USA,2010,8,228,20,True,F,80
+67,Chris,Bosh,Georgia Tech,Georgia Tech/USA,1984-03-24,USA,2003,13,235,1,False,F,83
+68,Avery,Bradley,Texas-Austin,Texas-Austin/USA,1990-11-26,USA,2010,11,180,20,True,G,75
+70,Corey,Brewer,Florida,Florida/USA,1986-03-05,USA,2007,13,188,13,True,G-F,81
+71,Malcolm,Brogdon,Virginia,Virginia/USA,1992-12-11,USA,2016,5,229,13,True,G,77
+74,Bobby,Brown,Cal State-Fullerton,CalUnited StatesState-Fullerton/USA,1984-09-24,USA,2008,2,175,8,False,G,74
+75,Jaylen,Brown,California,California/USA,1996-10-24,USA,2016,5,223,7,True,G-F,78
+76,Lorenzo,Brown,North Carolina State,North Carolina State/USA,1990-08-26,USA,2013,4,189,4,True,G,77
+82,Reggie,Bullock,North Carolina,North Carolina/USA,1991-03-16,USA,2013,8,205,25,True,G-F,78
+83,Trey,Burke,Michigan,Michigan/USA,1992-11-12,USA,2013,8,185,9,True,G,72
+84,Alec,Burks,Colorado,Colorado/USA,1991-07-20,USA,2011,10,214,5,True,G,78
+86,Jimmy,Butler,Marquette,Marquette/USA,1989-09-14,USA,2011,10,230,22,True,F,79
+89,Kentavious,Caldwell-Pope,Georgia,Georgia/USA,1993-02-18,USA,2013,8,204,5,True,G,77
+93,DeMarre,Carroll,Missouri,Missouri/USA,1986-07-27,USA,2009,11,215,9,True,F,78
+101,Tyson,Chandler,Dominguez HS (CA),Dominguez HS (CA)/USA,1982-10-02,USA,2001,19,235,19,True,C,84
+102,Wilson,Chandler,DePaul,DePaul/USA,1987-05-10,USA,2007,12,235,21,True,F,80
+104,Marquese,Chriss,Washington,Washington/USA,1997-07-02,USA,2016,5,240,14,True,F,81
+105,Rakeem,Christmas,Syracuse,Syracuse/USA,1991-12-01,USA,2015,1,250,25,False,F,81
+106,Semaj,Christon,Xavier,Xavier/USA,1992-11-01,USA,2016,0,190,6,False,G,75
+108,Ian,Clark,Belmont,Belmont University/USA,1991-03-07,USA,2013,6,175,2,True,G,75
+114,Mike,Conley,Ohio State,Ohio State/USA,1987-10-11,USA,2007,14,175,11,True,G,73
+115,Pat,Connaughton,Notre Dame,Notre Dame/USA,1993-01-06,USA,2015,6,209,24,True,G,77
+117,DeMarcus,Cousins,Kentucky,Kentucky/USA,1990-08-13,USA,2010,10,270,4,True,C,82
+118,Robert,Covington,Tennessee State,Tennessee State/USA,1990-12-14,USA,2013,8,209,23,True,F,79
+121,Jae,Crowder,Marquette,Marquette/USA,1990-07-06,USA,2012,9,235,99,True,F,78
+123,Seth,Curry,Duke,Duke/USA,1990-08-23,USA,2013,7,185,30,True,G,74
+124,Stephen,Curry,Davidson,Davidson/USA,1988-03-14,USA,2009,12,185,30,True,G,74
+125,Troy,Daniels,Virginia Commonwealth,Virginia Commonwealth/USA,1991-07-15,USA,2013,7,200,30,True,G,76
+126,Anthony,Davis,Kentucky,Kentucky/USA,1993-03-11,USA,2012,9,253,3,True,F-C,82
+128,Ed,Davis,North Carolina,North Carolina/USA,1989-06-05,USA,2010,11,218,21,True,C-F,81
+131,Dewayne,Dedmon,Southern California,Southern California/USA,1989-08-12,USA,2013,8,245,21,True,C,84
+133,Malcolm,Delaney,Virginia Tech,Virginia Tech/USA,1989-03-11,USA,2016,2,190,5,True,G,75
+136,DeMar,DeRozan,Southern California,Southern California/USA,1989-08-07,USA,2009,12,220,11,True,G-F,78
+142,Spencer,Dinwiddie,Colorado,Colorado/USA,1993-04-06,USA,2014,7,215,26,True,G,78
+147,Andre,Drummond,Connecticut,Connecticut/USA,1993-08-10,USA,2012,9,279,3,True,C,82
+148,Jared,Dudley,Boston College,Boston College/USA,1985-07-10,USA,2007,14,237,10,True,F,78
+151,Mike,Dunleavy,Duke,Duke/USA,1980-09-15,USA,2002,14,230,34,False,G-F,81
+153,Kevin,Durant,Texas,Texas/USA,1988-09-29,USA,2007,13,240,7,True,F,82
+155,Jarell,Eddie,Virginia Tech,Virginia Tech/USA,1991-10-30,USA,2015,4,218,31,True,G-F,79
+157,Wayne,Ellington,North Carolina,North Carolina/USA,1987-11-29,USA,2009,12,207,2,True,G,76
+158,Monta,Ellis,"Lanier HS (Jackson, MS)","Lanier HS (Jackson, MS)/USA",1985-10-26,USA,2005,11,185,11,False,G,75
+162,Jeremy,Evans,Western Kentucky,Western Kentucky/USA,1987-10-24,USA,2010,7,200,6,True,F,81
+169,Derrick,Favors,Georgia Tech,Georgia Tech/USA,1991-07-15,USA,2010,11,265,15,True,F,81
+175,Dorian,Finney-Smith,Florida,Florida/USA,1993-05-04,USA,2016,5,220,10,True,F,79
+176,Bryn,Forbes,Michigan State,Michigan State/USA,1993-07-23,USA,2016,5,205,10,True,G,74
+178,Randy,Foye,Villanova,Villanova/USA,1983-09-24,USA,2006,10,218,2,False,G,76
+186,Rudy,Gay,Connecticut,Connecticut/USA,1986-08-17,USA,2006,15,250,22,True,F-G,80
+187,Michael,Gbinije,Syracuse,Syracuse/USA,1992-06-05,USA,2016,0,200,9,False,G-F,79
+189,Paul,George,Fresno State,Fresno State/USA,1990-05-02,USA,2010,11,220,13,True,F,80
+190,Taj,Gibson,Southern California,Southern California/USA,1985-06-24,USA,2009,12,232,67,True,F,81
+194,Archie,Goodwin,Kentucky,Kentucky/USA,1994-08-17,USA,2013,3,205,10,False,G,77
+195,Aaron,Gordon,Arizona,Arizona/USA,1995-09-16,USA,2014,7,235,50,True,F,80
+196,Eric,Gordon,Indiana,Indiana/USA,1988-12-25,USA,2008,13,215,10,True,G,75
+200,Jerami,Grant,Syracuse,Syracuse/USA,1994-03-12,USA,2014,7,210,9,True,F,80
+203,Danny,Green,North Carolina,North Carolina/USA,1987-06-22,USA,2009,12,215,14,True,G,78
+204,Draymond,Green,Michigan State,Michigan State/USA,1990-03-04,USA,2012,9,230,23,True,F,78
+206,JaMychal,Green,Alabama,Alabama/USA,1990-06-21,USA,2014,7,227,1,True,F-C,80
+207,Jeff,Green,Georgetown,Georgetown/USA,1986-08-28,USA,2007,13,235,32,True,F,80
+208,Blake,Griffin,Oklahoma,Oklahoma/USA,1989-03-16,USA,2010,11,250,91,True,F,81
+213,AJ,Hammons,Purdue,Purdue/USA,1992-08-27,USA,2016,0,260,20,False,C,84
+215,Tim,Hardaway Jr.,Michigan,Michigan/USA,1992-03-16,USA,2013,8,205,11,True,G-F,77
+216,James,Harden,Arizona State,Arizona State/USA,1989-08-26,USA,2009,12,220,1,True,G,77
+218,Montrezl,Harrell,Louisville,Louisville/USA,1994-01-26,USA,2015,6,240,5,True,F-C,79
+220,Gary,Harris,Michigan State,Michigan State/USA,1994-09-14,USA,2014,7,210,14,True,G,76
+221,Joe,Harris,Virginia,Virginia/USA,1991-09-06,USA,2014,7,220,12,True,G-F,78
+222,Tobias,Harris,Tennessee,Tennessee/USA,1992-07-15,USA,2011,10,226,12,True,F,79
+223,Aaron,Harrison,Kentucky,Kentucky/USA,1994-10-28,USA,2015,3,210,9,True,G,78
+225,Udonis,Haslem,Florida,Florida/USA,1980-06-09,USA,2003,18,235,40,True,F,80
+227,Gordon,Hayward,Butler,Butler/USA,1990-03-23,USA,2010,11,225,20,True,F,79
+228,Gerald,Henderson,Duke,Duke/USA,1987-12-09,USA,2009,7,215,12,False,G,77
+233,Roy,Hibbert,Georgetown,Georgetown/USA,1986-12-11,USA,2008,8,270,34,False,C,86
+237,George,Hill,Indiana-Purdue Indianapolis,Indiana-Purdue Indianapolis/USA,1986-05-04,USA,2008,13,188,3,True,G,76
+238,Jordan,Hill,Arizona,Arizona/USA,1987-07-27,USA,2009,7,240,27,False,F-C,82
+242,Jrue,Holiday,UCLA,UCLA/USA,1990-06-12,USA,2009,12,205,21,True,G,75
+243,Justin,Holiday,Washington,Washington/USA,1989-04-05,USA,2012,8,180,9,True,F-G,78
+244,John,Holland,Boston U.,Boston U./USA,1988-11-06,USA,2017,1,205,10,True,G,77
+245,Rondae,Hollis-Jefferson,Arizona,Arizona/USA,1995-01-03,USA,2015,6,217,2,True,F,78
+246,Richaun,Holmes,Bowling Green,Bowling Green/USA,1993-10-15,USA,2015,6,235,22,True,F,82
+247,Rodney,Hood,Duke,Duke/USA,1992-10-20,USA,2014,7,208,22,True,G-F,80
+249,Danuel,House Jr.,Texas A&M,Texas A&M/USA,1993-06-07,USA,2016,5,220,25,True,F-G,78
+250,Dwight,Howard,SW Atlanta Christian Academy (GA),SW Atlanta Christian Academy (GA)/USA,1985-12-08,USA,2004,17,265,39,True,C-F,82
+253,Kris,Humphries,Minnesota,Minnesota/USA,1985-02-06,USA,2004,12,235,43,False,F,81
+254,RJ,Hunter,Georgia State,Georgia State/USA,1993-10-24,USA,2015,4,185,28,True,G,77
+256,Andre,Iguodala,Arizona,Arizona/USA,1984-01-28,USA,2004,17,215,9,True,G-F,78
+260,Brandon,Ingram,Duke,Duke/USA,1997-09-02,USA,2016,5,190,14,True,F,80
+264,Reggie,Jackson,Boston College,Boston College/USA,1990-04-16,USA,2011,10,208,1,True,G,74
+265,LeBron,James,St. Vincent-St. Mary HS (OH),St. Vincent-St. Mary HS (OH)/USA,1984-12-30,USA,2003,18,250,6,True,F,81
+266,Al,Jefferson,Prentiss HS (MS),Prentiss HS (MS)/USA,1985-01-04,USA,2004,14,280,25,True,C,82
+268,John,Jenkins,Vanderbilt,Vanderbilt/USA,1991-03-06,USA,2012,6,215,30,True,G,76
+269,Brandon,Jennings,Oak Hill Academy (VA),"Oak Hill Academy (Mouth of Wilson, VA)/USA",1989-09-23,USA,2009,9,170,11,True,G,73
+271,Amir,Johnson,No College,"Westchester HS (Los Angeles, CA)/USA",1987-05-01,USA,2005,14,240,5,True,C-F,81
+272,Brice,Johnson,North Carolina,North Carolina/USA,1994-06-27,USA,2016,0,230,10,False,F,82
+276,Stanley,Johnson,Arizona,Arizona/USA,1996-05-29,USA,2015,6,242,3,True,F-G,78
+278,Wesley,Johnson,Syracuse,Syracuse/USA,1987-07-11,USA,2010,9,215,4,True,F-G,79
+280,Dahntay,Jones,Duke,Duke/USA,1980-12-27,USA,2003,12,225,30,False,G-F,78
+281,Damian,Jones,Vanderbilt,Vanderbilt/USA,1995-06-30,USA,2016,5,245,30,True,C,83
+282,James,Jones,Miami (FL),Miami (Fla.)/USA,1980-10-04,USA,2003,13,218,1,False,G-F,80
+283,Derrick,Jones Jr.,UNLV,UNLV/USA,1997-02-15,USA,2016,5,210,5,True,F,78
+285,Tyus,Jones,Duke,Duke/USA,1996-05-10,USA,2015,6,196,21,True,G,72
+286,DeAndre,Jordan,Texas A&M,Texas A&M/USA,1988-07-21,USA,2008,13,265,6,True,C,83
+294,Ryan,Kelly,Duke,Duke/USA,1991-04-09,USA,2013,3,230,30,False,F,83
+297,Brandon,Knight,Kentucky,Kentucky/USA,1991-12-02,USA,2011,8,182,20,True,G,74
+299,Kyle,Korver,Creighton,Creighton/USA,1981-03-17,USA,2003,17,212,26,True,G-F,79
+300,Kosta,Koufos,Ohio State,Ohio State/USA,1989-02-24,USA,2008,11,245,41,True,C,84
+303,Jeremy,Lamb,Connecticut,Connecticut/USA,1992-05-30,USA,2012,9,180,26,True,G-F,77
+306,Shane,Larkin,Miami (FL),Miami (Fla.)/USA,1992-10-02,USA,2013,4,175,8,True,G,71
+308,Zach,LaVine,UCLA,UCLA/USA,1995-03-10,USA,2014,7,200,8,True,G-F,77
+310,Jake,Layman,Maryland,Maryland/USA,1994-03-07,USA,2016,5,209,10,True,F,80
+314,Kawhi,Leonard,San Diego State,San Diego State/USA,1991-06-29,USA,2011,10,225,2,True,F,79
+317,Caris,LeVert,Michigan,Michigan/USA,1994-08-25,USA,2016,5,205,3,True,G,78
+321,Shaun,Livingston,No College,Peoria Central HS (IL)USA/USA,1985-09-11,USA,2004,15,192,34,True,G,79
+322,Kevon,Looney,UCLA,UCLA/USA,1996-02-06,USA,2015,6,222,5,True,F,81
+323,Brook,Lopez,Stanford,Stanford/USA,1988-04-01,USA,2008,13,282,11,True,C,84
+325,Robin,Lopez,Stanford,Stanford/USA,1988-04-01,USA,2008,13,281,33,True,C,84
+327,Kyle,Lowry,Villanova,Villanova/USA,1986-03-25,USA,2006,15,196,7,True,G,72
+341,Wesley,Matthews,Marquette,Marquette/USA,1986-10-14,USA,2009,12,220,23,True,G,76
+344,James Michael,McAdoo,North Carolina,North Carolina/USA,1993-01-04,USA,2014,2,240,20,False,F,81
+347,CJ,McCollum,Lehigh,Lehigh/USA,1991-09-19,USA,2013,8,190,3,True,G,75
+348,T.J.,McConnell,Arizona,Arizona/USA,1992-03-25,USA,2015,6,190,9,True,G,73
+351,Doug,McDermott,Creighton,Creighton/USA,1992-01-03,USA,2014,7,225,17,True,F,79
+354,Rodney,McGruder,Kansas State,Kansas State/USA,1991-07-29,USA,2016,5,205,17,True,G,76
+355,Ben,McLemore,Kansas,Kansas/USA,1993-02-11,USA,2013,8,195,23,True,G,75
+357,Josh,McRoberts,Duke,Duke/USA,1987-02-28,USA,2007,9,240,4,False,F,82
+361,Khris,Middleton,Texas A&M,Texas A&M/USA,1991-08-12,USA,2012,9,222,22,True,F,79
+364,Mike,Miller,Florida,FloridaUSA/USA,1980-02-19,USA,2000,16,218,3,False,G-F,80
+366,Paul,Millsap,Louisiana Tech,Louisiana Tech/USA,1985-02-10,USA,2006,15,257,8,True,F,79
+369,Greg,Monroe,Georgetown,Georgetown/USA,1990-06-04,USA,2010,9,250,55,True,F-C,82
+371,E'Twaun,Moore,Purdue,Purdue/USA,1989-02-25,USA,2011,10,191,55,True,G,75
+373,Marcus,Morris Sr.,Kansas,Kansas/USA,1989-09-02,USA,2011,10,218,8,True,F,80
+374,Markieff,Morris,Kansas,Kansas/USA,1989-09-02,USA,2011,10,245,13,True,F,81
+375,Anthony,Morrow,Georgia Tech,Georgia Tech/USA,1985-09-27,USA,2008,8,210,11,False,G,77
+382,Dejounte,Murray,Washington,Washington/USA,1996-09-19,USA,2016,4,180,5,True,G,76
+384,Mike,Muscala,Bucknell,Bucknell/USA,1991-07-01,USA,2013,8,240,33,True,F-C,82
+385,Larry,Nance Jr.,Wyoming,Wyoming/USA,1993-01-01,USA,2015,6,245,22,True,F-C,79
+386,Shabazz,Napier,Connecticut,Connecticut/USA,1991-07-14,USA,2014,6,175,5,True,G,72
+391,Georges,Niang,Iowa State,Iowa State/USA,1993-06-17,USA,2016,5,230,20,True,F,79
+394,Nerlens,Noel,Kentucky,Kentucky/USA,1994-04-10,USA,2014,7,220,3,True,C-F,83
+400,Kyle,O'Quinn,Norfolk State,Norfolk State/USA,1990-03-26,USA,2012,8,250,9,True,C-F,81
+401,Daniel,Ochefu,Villanova,Villanova/USA,1993-12-15,USA,2016,0,245,32,False,F,83
+403,Victor,Oladipo,Indiana,Indiana/USA,1992-05-04,USA,2013,8,213,4,True,G,76
+407,Kelly,Oubre Jr.,Kansas,Kansas/USA,1995-12-09,USA,2015,6,203,12,True,F-G,78
+415,Chris,Paul,Wake Forest,Wake Forest/USA,1985-05-06,USA,2005,16,175,3,True,G,72
+416,Adreian,Payne,Michigan State,Michigan State/USA,1991-02-19,USA,2014,2,237,33,False,F,82
+417,Cameron,Payne,Murray State,Murray State/USA,1994-08-08,USA,2015,6,183,15,True,G,73
+418,Elfrid,Payton,Louisana-Lafayette,Louisana-Lafayette/USA,1994-02-22,USA,2014,7,195,2,True,G,75
+422,Kendrick,Perkins,Clifton J. Ozen HS (TX),Clifton J. Ozen HS (TX)/USA,1984-11-10,USA,2003,14,270,21,True,C,82
+423,Paul,Pierce,Kansas,Kansas/USA,1977-10-13,USA,1998,18,235,34,False,F,79
+425,Marshall,Plumlee,Duke,Duke/USA,1992-07-14,USA,2016,2,250,40,True,C,84
+426,Mason,Plumlee,Duke,Duke/USA,1990-03-05,USA,2013,8,254,24,True,F-C,83
+430,Otto,Porter Jr.,Georgetown,Georgetown/USA,1993-06-03,USA,2013,8,198,32,True,F,80
+431,Bobby,Portis,Arkansas,Arkansas/USA,1995-02-10,USA,2015,6,250,9,True,F,82
+434,Norman,Powell,UCLA,UCLA/USA,1993-05-25,USA,2015,6,215,24,True,G,75
+437,Taurean,Prince,Baylor,Baylor/USA,1994-03-22,USA,2016,5,218,12,True,F,78
+439,Tim,Quarterman,Louisiana State,Louisiana State/USA,1994-10-27,USA,2016,0,190,55,False,G,78
+441,Julius,Randle,Kentucky,Kentucky/USA,1994-11-29,USA,2014,7,250,30,True,F-C,80
+444,JJ,Redick,Duke,Duke/USA,1984-06-24,USA,2006,15,200,17,True,G,75
+445,Willie,Reed,Saint Louis,St. Louis/USA,1990-05-16,USA,2015,1,245,35,False,F-C,83
+446,Josh,Richardson,Tennessee,Tennessee/USA,1993-09-15,USA,2015,6,200,7,True,G,77
+447,Malachi,Richardson,Syracuse,Syracuse/USA,1996-01-05,USA,2016,2,205,22,True,G,78
+448,Austin,Rivers,Duke,Duke/USA,1992-08-01,USA,2012,9,200,25,True,G,76
+455,Rajon,Rondo,Kentucky,Kentucky/USA,1986-02-22,USA,2006,15,180,1,True,G,73
+456,Derrick,Rose,Memphis,Memphis/USA,1988-10-04,USA,2008,12,200,4,True,G,74
+457,Terrence,Ross,Washington,Washington/USA,1991-02-05,USA,2012,9,206,31,True,G-F,78
+458,Terry,Rozier,Louisville,Louisville/USA,1994-03-17,USA,2015,6,190,3,True,G,73
+466,JaKarr,Sampson,St. John's,St. John's/USA,1993-03-20,USA,2014,6,214,14,True,F,79
+474,Mike,Scott,Virginia,Virginia/USA,1988-07-16,USA,2012,9,237,1,True,F,79
+482,Jonathon,Simmons,Houston, USA/USA,1989-09-14,USA,2015,4,195,14,True,F,78
+484,Kyle,Singler,Duke,Duke/USA,1988-05-04,USA,2012,6,228,15,True,F,80
+486,Marcus,Smart,Oklahoma State,Oklahoma State/USA,1994-03-06,USA,2014,7,220,36,True,G,76
+488,Ish,Smith,Wake Forest,Wake Forest/USA,1988-07-05,USA,2010,11,175,14,True,G,72
+492,Tony,Snell,New Mexico,New Mexico/USA,1991-11-10,USA,2013,8,213,21,True,G,78
+497,Lance,Stephenson,Cincinnati,Cincinnati/USA,1990-09-05,USA,2010,9,210,6,True,F,77
+498,Jarnell,Stokes,Tennessee,Tennessee/USA,1994-01-07,USA,2014,3,255,2,True,F-C,81
+505,Jeff,Teague,Wake Forest,Wake Forest/USA,1988-06-10,USA,2009,12,195,5,True,G,75
+507,Garrett,Temple,Louisiana State,Louisiana State/USA,1986-05-08,USA,2009,11,195,41,True,G-F,77
+508,Jason,Terry,Arizona,Arizona/USA,1977-09-15,USA,1999,19,185,3,True,G,74
+510,Isaiah,Thomas,Washington,Washington/USA,1989-02-07,USA,2011,10,185,4,True,G,69
+514,Klay,Thompson,Washington State,Washington State/USA,1990-02-08,USA,2011,8,220,11,True,G,78
+519,Karl-Anthony,Towns,Kentucky,Kentucky/USA,1995-11-15,USA,2015,6,248,32,True,C-F,83
+520,P.J.,Tucker,Texas,Texas/USA,1985-05-05,USA,2006,10,245,17,True,F,77
+521,Evan,Turner,Ohio State,Ohio State/USA,1988-10-27,USA,2010,10,220,1,True,G-F,78
+522,Myles,Turner,Texas,Texas/USA,1996-03-24,USA,2015,6,250,33,True,C-F,83
+527,Fred,VanVleet,Wichita State,Wichita State/USA,1994-02-25,USA,2016,5,197,23,True,G,73
+531,Rashad,Vaughn,UNLV,Nevada-Las Vegas/USA,1996-08-16,USA,2015,3,210,20,True,G,78
+537,Dion,Waiters,Syracuse,Syracuse/USA,1991-12-10,USA,2012,8,210,18,True,G,75
+538,Kemba,Walker,Connecticut,Connecticut/USA,1990-05-08,USA,2011,10,184,8,True,G,72
+539,John,Wall,Kentucky,Kentucky/USA,1990-09-06,USA,2010,10,210,11,True,G,75
+540,T.J.,Warren,North Carolina State,North Carolina State/USA,1993-09-05,USA,2014,7,220,1,True,F,80
+541,C.J.,Watson,Tennessee,Tennessee/USA,1984-04-17,USA,2007,9,175,32,False,G,74
+546,Hassan,Whiteside,Marshall,Marshall/USA,1989-06-13,USA,2010,9,265,21,True,C,84
+550,Alan,Williams,Cal-Santa Barbara,California-Santa Barbara/USA,1993-01-28,USA,2015,4,265,15,True,F-C,80
+551,Deron,Williams,Illinois,Illinois/USA,1984-06-26,USA,2005,11,200,31,False,G,75
+552,Derrick,Williams,Arizona,Arizona/USA,1991-05-25,USA,2011,5,240,3,False,F,80
+553,Lou,Williams,South Gwinnett HS (GA),South Gwinnett HS (GA)/USA,1986-10-27,USA,2005,16,175,6,True,G,74
+554,Marvin,Williams,North Carolina,North Carolina/USA,1986-06-19,USA,2005,15,237,20,True,F,80
+556,Troy,Williams,Indiana,Indiana/USA,1994-12-30,USA,2016,3,218,19,True,F,79
+557,Kyle,Wiltjer,Gonzaga,Gonzaga/USA,1992-10-20,USA,2016,0,240,30,False,F,82
+558,Justise,Winslow,Duke,Duke/USA,1996-03-26,USA,2015,6,222,26,True,F-G,78
+559,Jeff,Withey,Kansas,Kansas/USA,1990-03-07,USA,2013,3,231,24,False,C,84
+560,Christian,Wood,UNLV,UNLV/USA,1995-09-27,USA,2015,5,214,35,True,F,81
+562,Metta,World Peace,St. John's (NY),St. John's/USA,1979-11-13,USA,1999,16,260,37,False,F,79
+563,Brandan,Wright,North Carolina,North Carolina/USA,1987-10-05,USA,2007,8,210,34,False,F,82
+564,Delon,Wright,Utah,Utah/USA,1992-04-26,USA,2015,6,185,55,True,G,77
+567,James,Young,Kentucky,Kentucky/USA,1995-08-16,USA,2014,4,239,8,True,G-F,79
+568,Joe,Young,Oregon,Oregon/USA,1992-06-27,USA,2015,3,185,3,True,G,74
+569,Nick,Young,Southern California,USC/USA,1985-06-01,USA,2007,11,210,34,True,G-F,79
+570,Thaddeus,Young,Georgia Tech,Georgia Tech/USA,1988-06-21,USA,2007,14,235,21,True,F,80
+586,Jonathan,Gibson,New Mexico State,New Mexico State/USA,1987-11-08,USA,2016,3,185,3,True,G,74
+594,Wayne,Selden,Kansas,Kansas/USA,1994-09-30,USA,2016,3,232,11,True,G,76
+598,Yogi,Ferrell,Indiana,Indiana/USA,1993-05-09,USA,2016,5,178,11,True,G,72
+599,Damion,Lee,Drexel,Drexel/USA,1992-10-21,USA,2017,4,210,10,True,G-F,77
+600,Alex,Poythress,Kentucky,Kentucky/USA,1993-09-06,USA,2016,3,235,22,True,F,81
+609,Ryan,Arcidiacono,Villanova,Villanova/USA,1994-03-26,USA,2017,4,195,51,True,G,75
+625,Jalen,Jones,Texas A&M,Texas A&M/USA,1993-05-27,USA,2017,2,220,32,True,F,79
+631,Alex,Caruso,Texas A&M,Texas A&M/USA,1994-02-28,USA,2017,4,186,6,True,G,77
+691,Julyan,Stone,Texas-El Paso,Texas-ElUSAPaso/USA,1988-12-07,USA,2011,4,200,32,True,G,78
+697,DJ,Stephens,Memphis, USA/USA,1990-12-19,USA,2013,1,188,20,True,G-F,77
+712,Travis,Wear,UCLA,UCLA/USA,1990-09-21,USA,2014,2,219,21,True,F,81
+720,Jordan,Crawford,Xavier,XavierUSA(Ohio)/USA,1988-10-23,USA,2010,6,195,27,True,G,77
+721,Manny,Harris,Michigan,Michigan/USA,1989-09-21,USA,2010,3,185,6,False,G,77
+722,Elijah,Millsap,Alabama-Birmingham,Alabama-Birmingham/USA,1987-08-12,USA,2014,2,215,22,False,G-F,79
+723,David,Nwaba,Cal Poly,Cal Poly/USA,1993-01-14,USA,2016,5,219,11,True,G-F,77
+724,Bam,Adebayo,Kentucky,Kentucky/USA,1997-07-18,USA,2017,4,255,13,True,C-F,81
+727,Jarrett,Allen,Texas,Texas/USA,1998-04-21,USA,2017,4,243,31,True,C,82
+735,Lonzo,Ball,UCLA,UCLA/USA,1997-10-27,USA,2017,4,190,2,True,G,78
+738,Jordan,Bell,Oregon,Oregon/USA,1995-01-07,USA,2017,4,216,20,True,F,79
+741,Antonio,Blakeney,Louisiana State,Louisiana State/USA,1996-10-04,USA,2017,2,192,9,True,G,76
+748,Tony,Bradley,North Carolina,North Carolina/USA,1998-01-08,USA,2017,4,248,13,True,C-F,82
+753,Thomas,Bryant,Indiana,Indiana/USA,1997-07-31,USA,2017,4,248,13,True,C-F,82
+755,Dwight,Buycks,Marquette,Marquette/USA,1989-03-06,USA,2013,3,190,20,True,G,75
+758,Tyler,Cavanaugh,George Washington,George Washington/USA,1994-02-09,USA,2017,2,238,34,True,F,81
+760,Antonius,Cleveland,S.E. Missouri,Southeast Missouri/USA,1994-02-02,USA,2017,2,195,3,True,G,77
+761,John,Collins,Wake Forest,Wake Forest/USA,1997-09-23,USA,2017,4,226,20,True,F-C,81
+762,Zach,Collins,Gonzaga,Gonzaga/USA,1997-11-19,USA,2017,3,250,23,True,F-C,83
+763,Charles,Cooke,Dayton,Dayton/USA,1994-07-01,USA,2017,1,196,4,True,G,77
+764,Jack,Cooley,Notre Dame,Notre Dame/USA,1991-04-12,USA,2014,2,274,45,True,C-F,82
+771,Larry,Drew II,UCLA,UCLA/USA,1990-03-05,USA,2014,2,180,1,True,G,74
+776,De'Aaron,Fox,Kentucky,Kentucky/USA,1997-12-20,USA,2017,4,185,5,True,G,75
+779,Markelle,Fultz,Washington,Washington/USA,1998-05-29,USA,2017,4,209,20,True,G,76
+791,Josh,Hart,Villanova,Villanova/USA,1995-03-06,USA,2017,4,215,11,True,G,77
+792,Nigel,Hayes,Wisconsin,Wisconsin/USA,1994-12-16,USA,2017,1,254,40,True,F,79
+795,Isaiah,Hicks,North Carolina,North Carolina/USA,1994-07-24,USA,2017,2,230,4,True,F,81
+800,Andre,Ingram,American,American/USA,1985-11-19,USA,2017,1,190,20,True,G,75
+801,Jonathan,Isaac,Florida State,Florida State/USA,1997-10-03,USA,2017,3,230,1,True,F,82
+805,Josh,Jackson,Kansas,Kansas/USA,1997-02-10,USA,2017,4,207,55,True,G-F,80
+810,Dakari,Johnson,Kentucky,Kentucky/USA,1995-09-22,USA,2017,1,255,44,True,C,84
+814,Luke,Kennard,Duke,Duke/USA,1996-06-24,USA,2017,4,206,5,True,G,77
+819,Luke,Kornet,Vanderbilt,Vanderbilt/USA,1995-07-15,USA,2017,4,250,40,True,C-F,86
+820,Kyle,Kuzma,Utah,Utah/USA,1995-07-24,USA,2017,4,221,33,True,F,81
+821,T.J.,Leaf,UCLA,UCLA/USA,1997-04-30,USA,2017,4,222,18,True,F,82
+834,Erik,McCree,Louisiana Tech,Louisiana Tech/USA,1993-12-20,USA,2017,1,225,21,True,F,80
+837,Malcolm,Miller,Holy Cross,Holy Cross/USA,1993-03-06,USA,2017,3,210,13,True,G-F,79
+840,Donovan,Mitchell,Louisville,Louisville/USA,1996-09-07,USA,2017,4,215,45,True,G,73
+844,Jaylen,Morris,Molloy,Molloy/USA,1995-09-19,USA,2017,2,185,30,True,G,77
+845,Monte,Morris,Iowa State,Iowa State/USA,1995-06-27,USA,2017,4,183,22,True,G,74
+857,Alec,Peters,Valparaiso,Valparaiso/USA,1995-04-13,USA,2017,1,235,25,True,F,81
+862,Rodney,Purvis,Connecticut,Connecticut/USA,1994-02-14,USA,2017,1,205,15,True,G,76
+865,Davon,Reed,Miami,Miami/USA,1995-06-11,USA,2017,2,206,9,True,G,77
+881,Caleb,Swanigan,Purdue,Purdue/USA,1997-04-18,USA,2017,3,260,50,True,F,81
+883,Marquis,Teague,Kentucky,Kentucky/USA,1993-02-28,USA,2012,3,189,20,True,G,74
+887,Sindarius,Thornwell,South Carolina,South Carolina/USA,1994-11-15,USA,2017,4,215,15,True,G,76
+892,Ekpe,Udoh,Baylor,Baylor/USA,1987-05-20,USA,2010,7,245,33,True,C-F,82
+893,Tyrone,Wallace,California,California/USA,1994-06-10,USA,2017,3,198,6,True,G,77
+894,Derrick,Walton Jr.,Michigan,Michigan/USA,1995-04-03,USA,2017,2,185,10,True,G,72
+897,Derrick,White,Colorado,Colorado/USA,1994-07-02,USA,2017,4,190,9,True,G,76
+926,Grayson,Allen,Duke,Duke/USA,1995-10-08,USA,2018,3,198,7,True,G,76
+931,Marvin,Bagley III,Duke,Duke/USA,1999-03-14,USA,2018,3,235,35,True,F,83
+932,Mo,Bamba,Texas,Texas/USA,1998-05-12,USA,2018,3,231,11,True,C,84
+934,Keita,Bates-Diop,Ohio State,Ohio State/USA,1996-01-23,USA,2018,3,229,31,True,F,80
+936,Jaron,Blossomgame,Clemson,Clemson/USA,1993-09-16,USA,2018,1,220,7,True,F,79
+940,Mikal,Bridges,Villanova,Villanova/USA,1996-08-30,USA,2018,3,209,25,True,F,78
+944,Bruce,Brown,Miami,Miami/USA,1996-08-15,USA,2018,3,202,11,True,G-F,76
+945,Troy,Brown Jr.,Oregon,Oregon/USA,1999-07-28,USA,2018,3,215,7,True,G-F,78
+946,Jalen,Brunson,Villanova,Villanova/USA,1996-08-31,USA,2018,3,190,11,True,G,73
+947,Deonte,Burton,Iowa State,Iowa State/USA,1994-01-31,USA,0,2,240,30,True,G-F,76
+949,Jevon,Carter,West Virginia,West Virginia/USA,1995-09-14,USA,2018,3,200,5,True,G,73
+950,Wendell,Carter Jr.,Duke,Duke/USA,1999-04-16,USA,2018,3,270,34,True,C-F,82
+953,Gary,Clark,Cincinnati,Cincinnati/USA,1994-11-16,USA,2018,3,225,12,True,F,78
+954,Bonzie,Colson,Notre Dame,Notre Dame/USA,1996-01-12,USA,2018,1,225,50,True,F,78
+959,Marcus,Derrickson,Georgetown,Georgetown University/USA,1996-02-01,USA,2018,1,250,32,True,F,79
+960,Hamidou,Diallo,Kentucky,Kentucky/USA,1998-07-31,USA,2018,3,202,6,True,G,77
+967,Jacob,Evans,Cincinnati,Cincinnati/USA,1997-06-18,USA,0,2,210,44,True,G-F,76
+969,Melvin,Frazier Jr.,Tulane,Tulane/USA,1996-08-30,USA,2018,2,215,6,True,G-F,77
+973,Devonte',Graham,Kansas,Kansas/USA,1995-02-22,USA,2018,3,195,4,True,G,73
+979,Aaron,Holiday,UCLA,UCLA/USA,1996-09-30,USA,2018,3,185,4,True,G,72
+980,Kevin,Huerter,Maryland,Maryland/USA,1998-08-27,USA,2018,3,198,9,True,G-F,79
+982,Jaren,Jackson Jr.,Michigan State,Michigan State/USA,1999-09-15,USA,2018,3,242,13,True,F-C,83
+986,George,King,Colorado Boulder,Colorado Boulder/USA,1994-01-15,USA,2018,1,220,8,True,F-G,78
+987,Kevin,Knox II,Kentucky,Kentucky/USA,1999-08-11,USA,2018,3,215,5,True,F,79
+990,Jordan,Loyd,Indianapolis,Indianapolis/USA,1993-07-27,USA,2018,1,210,8,True,G,76
+995,Yante,Maten,Georgia,Georgia/USA,1996-08-14,USA,2018,1,240,26,True,F,80
+997,Jordan,McLaughlin,Southern California,Southern California/USA,1996-04-09,USA,2019,2,185,6,True,G,71
+998,De'Anthony,Melton,Southern California,Southern California/USA,1998-05-28,USA,2018,3,200,8,True,G,74
+999,Chimezie,Metu,Southern California,Southern California/USA,1997-03-22,USA,2018,3,225,7,True,F-C,81
+1001,Shake,Milton,Southern Methodist,Southern Methodist/USA,1996-09-26,USA,2018,3,205,18,True,G-F,77
+1007,Kendrick,Nunn,Oakland,Oakland/USA,1995-08-03,USA,2019,2,190,12,True,G,74
+1008,James,Nunnally,California-Santa Barbara,California-Santa Barbara/USA,1990-07-14,USA,2013,3,205,21,True,F,79
+1011,Cameron,Oliver,Nevada,Nevada/USA,1996-07-11,USA,2020,1,239,21,True,F,80
+1013,Theo,Pinson,North Carolina,North Carolina/USA,1995-11-05,USA,2018,3,212,1,True,G-F,77
+1014,Michael,Porter Jr.,Missouri,Missouri/USA,1998-06-29,USA,2019,2,218,1,True,F,82
+1015,Billy,Preston,University of Kansas,University of Kansas/USA,1997-10-26,USA,0,0,240,20,True,F,82
+1018,Duncan,Robinson,Michigan,Michigan/USA,1994-04-22,USA,2018,3,215,55,True,F,79
+1020,Mitchell,Robinson,Western Kentucky,Western Kentucky/USA,1998-04-01,USA,2018,3,240,23,True,C-F,84
+1021,Collin,Sexton,Alabama,Alabama/USA,1999-01-04,USA,2018,3,190,2,True,G,73
+1022,Landry,Shamet,Wichita State,Wichita State/USA,1997-03-13,USA,2018,3,190,14,True,G,76
+1023,Anfernee,Simons,Edgewater HS (FL),Edgewater HS (FL)/USA,1999-06-08,USA,2018,3,181,1,True,G,75
+1025,Zhaire,Smith,Texas Tech,Texas Tech/USA,1999-06-04,USA,2018,2,205,5,True,G,75
+1032,Emanuel,Terry,Lincoln Memorial,Lincoln Memorial/USA,1996-08-21,USA,2018,1,220,10,True,F,81
+1033,Khyri,Thomas,Creighton,Creighton/USA,1996-05-08,USA,2018,3,210,13,True,G,75
+1036,Jarred,Vanderbilt,Kentucky,Kentucky/USA,1999-04-03,USA,2018,3,214,8,True,F,81
+1038,Lonnie,Walker IV,Miami,Miami/USA,1998-12-14,USA,2018,3,204,4,True,G-F,76
+1043,Johnathan,Williams,Gonzaga,Gonzaga/USA,1995-05-22,USA,0,2,228,19,True,F,81
+1044,Kenrich,Williams,TCU,TCU/USA,1994-12-02,USA,2018,3,210,34,True,G-F,78
+1045,Robert,Williams III,Texas A&M,Texas A&M/USA,1997-10-17,USA,2018,3,237,44,True,C-F,81
+1046,Trae,Young,Oklahoma,Oklahoma/USA,1998-09-19,USA,2018,3,164,11,True,G,73
+1055,Amida,Brimah,Connecticut,Connecticut/USA,1994-02-11,USA,2020,1,230,37,True,C,82
+1056,Brian,Bowen II,Sydney Kings,Sydney Kings/USA,1998-10-02,USA,2019,2,190,10,True,F-G,78
+1057,Malik,Newman,Kansas,Kansas/USA,1997-02-21,USA,2019,1,190,14,True,G,75
+1058,Gary,Trent Jr.,Duke,Duke/USA,1999-01-18,USA,2018,3,209,33,True,G-F,77
+1067,BJ,Johnson,La Salle,La Salle/USA,1995-12-21,USA,2018,2,200,20,True,F,78
+1069,Chris,Chiozza,Florida,Florida/USA,1995-11-21,USA,2018,3,175,2,True,G,71
+1071,Kaiser,Gates,Xavier,Xavier/USA,1996-11-08,USA,0,0,225,30,True,F,79
+1336,Chance,Comanche,Arizona,Arizona/USA,1996-04-14,USA,0,0,210,20,True,C,82
+1507,Scott,Machado,Iona,Iona/USA,1990-06-08,USA,2012,1,205,10,True,G,73
+1572,London,Perrantes,Virginia,Virginia/USA,1994-10-03,USA,2017,1,194,8,True,G,73
+1772,Brandon,Sampson,Louisiana State University,Louisiana State University/USA,1997-05-01,USA,2018,1,184,44,True,G,77
+1775,Gabe,Vincent,California-Santa Barbara,California-Santa Barbara/USA,1996-06-14,USA,2019,2,200,2,True,G,75
+1780,Jimmer,Fredette,Brigham Young,Brigham Young/USA,1989-02-25,USA,2011,6,195,32,True,F,74
+1811,John,Petrucelli,Molloy,Molloy/USA,1992-10-27,USA,0,0,190,12,True,G,76
+1812,John,Petrucelli,Molloy College,Molloy College/USA,1992-10-27,USA,0,0,190,12,True,G,76
+1815,Haywood,Highsmith,Wheeling Jesuit,Wheeling Jesuit/USA,1996-12-09,USA,2018,1,220,24,True,F,76
+1818,Stephan,Hicks,Cal State-Northridge,Cal State-Northridge/USA,1992-04-02,USA,0,0,200,17,True,G,78
+1826,Cody,Demps,Sacramento State,Sacramento State/USA,1993-12-02,USA,0,0,195,22,True,F,76
+1828,Jemerrio,Jones,New Mexico State,New Mexico State/USA,1995-04-09,USA,2018,1,175,32,True,F,77
+1830,Billy,Garrett,DePaul University,DePaul/USA,1994-10-16,USA,2018,1,215,3,True,G-F,78
+1831,Michael,Frazier,Florida,Florida/USA,1994-03-08,USA,0,1,200,21,True,G,75
+1832,Tarik,Phillip,West Virginia,West Virginia/USA,1993-08-10,USA,0,1,195,22,True,G,75
+1847,Darius,Bazley,Princeton HS (OH),Princeton HS (OH)/USA,2000-06-12,USA,2019,2,208,55,True,F,80
+1851,Jarrell,Brantley,College of Charleston,College of Charleston/USA,1996-06-07,USA,2019,2,250,5,True,F,77
+1854,Nic,Claxton,Georgia,Georgia/USA,1999-04-17,USA,2019,2,215,33,True,C,83
+1855,Jarrett,Culver,Texas Tech,Texas Tech/USA,1999-02-20,USA,2019,2,195,23,True,G-F,78
+1857,Carsen,Edwards,Purdue,Purdue/USA,1998-03-12,USA,2019,2,200,4,True,G,71
+1859,Daniel,Gafford,Arkansas,Arkansas/USA,1998-10-01,USA,2019,2,234,21,True,F-C,81
+1860,Darius,Garland,Vanderbilt,Vanderbilt/USA,2000-01-26,USA,2019,2,192,10,True,G,73
+1861,Kyle,Guy,Virginia,Virginia/USA,1997-08-11,USA,2019,2,167,5,True,G,73
+1864,Jaxson,Hayes,Texas,Texas/USA,2000-05-23,USA,2019,2,220,10,True,C-F,83
+1866,Tyler,Herro,Kentucky,Kentucky/USA,2000-01-20,USA,2019,2,195,14,True,G,77
+1868,De'Andre,Hunter,Virginia,Virginia/USA,1997-12-02,USA,2019,2,221,12,True,F-G,80
+1870,Ty,Jerome,Virginia,Virginia/USA,1997-07-08,USA,2019,2,195,16,True,G-F,77
+1871,Cameron,Johnson,North Carolina,North Carolina/USA,1996-03-03,USA,2019,2,210,23,True,F,80
+1872,Keldon,Johnson,Kentucky,Kentucky/USA,1999-10-11,USA,2019,2,220,3,True,F-G,78
+1874,Romeo,Langford,Indiana,Indiana/USA,1999-10-25,USA,2019,2,216,35,True,G-F,77
+1875,Nassir,Little,North Carolina,North Carolina/USA,2000-02-11,USA,2019,2,220,10,True,F-G,77
+1877,Terance,Mann,Florida State,Florida State/USA,1996-10-18,USA,2019,2,215,14,True,G-F,77
+1879,Cody,Martin,Nevada,Nevada/USA,1995-09-28,USA,2019,2,205,11,True,F,78
+1880,Jalen,McDaniels,San Diego State,San Diego State/USA,1998-01-31,USA,2019,2,205,6,True,F-C,81
+1881,Ja,Morant,Murray State,Murray State/USA,1999-08-10,USA,2019,2,174,12,True,G,75
+1882,Jaylen,Nowell,Washington,Washington/USA,1999-07-09,USA,2019,2,201,4,True,G,76
+1883,Chuma,Okeke,Auburn,Auburn/USA,1998-08-18,USA,2020,1,229,3,True,F,78
+1886,Eric,Paschall,Villanova,Villanova/USA,1996-11-04,USA,2019,2,255,9,True,F,78
+1887,Jordan,Poole,Michigan,Michigan/USA,1999-06-19,USA,2019,2,194,3,True,G,76
+1888,Kevin,Porter Jr.,Southern California,Southern California/USA,2000-05-04,USA,2019,2,203,3,True,G-F,76
+1890,Isaiah,Roby,Nebraska,Nebraska/USA,1998-02-03,USA,2019,2,230,22,True,F,80
+1896,Matisse,Thybulle,Washington,Washington/USA,1997-03-04,USA,2019,2,201,22,True,G-F,77
+1897,P.J.,Washington,Kentucky,Kentucky/USA,1998-08-23,USA,2019,2,230,25,True,F,79
+1898,Tremont,Waters,Louisiana State,Louisiana State/USA,1998-01-10,USA,2019,2,175,51,True,G,70
+1899,Quinndary,Weatherspoon,Mississippi State,Mississippi State/USA,1996-09-10,USA,2019,2,205,12,True,G,75
+1901,Grant,Williams,Tennessee,Tennessee/USA,1998-11-30,USA,2019,2,236,12,True,F,78
+1902,Zion,Williamson,Duke,Duke/USA,2000-07-06,USA,2019,2,284,1,True,F,78
+1903,Dylan,Windler,Belmont,Belmont/USA,1996-09-22,USA,2020,1,196,9,True,G-F,78
+1946,Aric,Holman,Mississippi State,Mississippi State/USA,1997-07-11,USA,0,0,225,35,True,F-C,81
+1948,DaQuan,Jeffries,Tulsa,Tulsa/USA,1997-08-30,USA,2019,3,225,8,True,G-F,77
+2051,Max,Strus,DePaul,DePaul/USA,1996-03-28,USA,2019,2,220,31,True,G-F,77
+2077,Zylan,Cheatham,Arizona State,Arizona State/USA,1995-11-17,USA,2019,1,220,45,True,F,80
+2111,Charlie,Brown Jr.,St. Joseph's (PA),St. Joseph's (PA)/USA,1997-02-02,USA,2019,2,199,16,True,G,78
+2115,Amir,Coffey,Minnesota,Minnesota/USA,1997-06-17,USA,2019,2,210,7,True,G-F,79
+2131,Louis,King,Oregon,Oregon/USA,1999-04-06,USA,2019,1,205,23,True,F,79
+2152,Rayjon,Tucker,Arkansas-Little Rock,Arkansas-Little Rock/USA,1997-09-24,USA,2019,2,209,59,True,G,75
+2166,Tyler,Cook,Iowa,Iowa/USA,1997-09-23,USA,2019,2,245,25,True,F,80
+2177,John,Konchar,Indiana-Purdue Fort Wayne,Indiana-Purdue Fort Wayne/USA,1996-03-22,USA,2019,2,210,46,True,G,77
+2182,Keifer,Sykes,Wisc.-Green Bay,Wisconsin-Green Bay/USA,1993-12-30,USA,2021,0,180,28,True,G,72
+2207,Justin,Robinson,Virginia Tech,Virginia Tech/USA,1997-10-12,USA,2019,2,195,55,True,G,73
+2325,Armoni,Brooks,Houston,Houston/USA,1998-06-05,USA,2020,1,195,1,True,G,75
+2381,Terence,Davis,Mississippi,Mississippi/USA,1997-05-16,USA,2019,2,201,3,True,G,76
+2387,Devontae,Cacok,North Carolina-Wilmington,North Carolina-Wilmington/USA,1996-10-08,USA,2019,2,240,18,True,F,79
+2388,Jeremiah,Martin,Memphis,Memphis/USA,1996-06-19,USA,2019,2,185,3,True,G,74
+2389,Garrison,Mathews,Lipscomb,Lipscomb/USA,1996-10-24,USA,2019,2,215,25,True,G,77
+2392,Dean,Wade,Kansas State,Kansas State/USA,1996-11-20,USA,2019,2,228,32,True,F-C,81
+2398,Jordan,Caroline,"University of Nevada, Reno","University of Nevada, Reno/USA",1996-01-15,USA,0,0,230,17,True,F-G,79
+2404,Javonte,Green,Radford,Radford/USA,1993-07-23,USA,2019,2,205,24,True,G-F,77
+2405,Dakota,Mathias,Purdue,Purdue/USA,1995-07-11,USA,2020,1,200,33,True,G,76
+2410,Caleb,Martin,Nevada,Nevada/USA,1995-09-28,USA,2019,2,205,16,True,F,77
+2417,Hassani,Gravett,South Carolina,South Carolina/USA,1996-07-16,USA,2021,0,187,12,True,G,74
+2418,Vic,Law,Northwestern,Northwestern/USA,1995-12-19,USA,0,1,201,23,True,F,79
+2422,Josh,Reaves,Penn State,Penn State/USA,1997-06-04,USA,0,1,214,23,True,G-F,76
+2423,Matt,Thomas,Iowa State,Iowa State/USA,1994-08-04,USA,2019,2,190,21,True,G,75
+2428,Moses,Brown,UCLA,UCLA/USA,1999-10-13,USA,2019,2,245,6,True,C,86
+2436,Jared,Harper,Auburn,Auburn/USA,1997-09-14,USA,2019,2,175,2,True,G,70
+2439,Tariq,Owens,Texas Tech,Texas Tech/USA,1995-06-30,USA,0,1,205,41,True,F,82
+2440,Keljin,Blevins,Montana State,Montana State/USA,1995-11-24,USA,2020,1,200,21,True,G,76
+2451,Juan,Toscano-Anderson,Marquette,Marquette/USA,1993-04-10,USA,2019,2,209,95,True,F,78
+2466,Daulton,Hommes,Point Loma,Point Loma/USA,1996-07-04,USA,0,0,215,34,True,F,80
+2474,Matt,Mooney,Texas Tech,Texas Tech/USA,1997-02-07,USA,2019,1,199,31,True,G,74
+2505,Naz,Reid,Louisiana State,Louisiana State/USA,1999-08-26,USA,2019,2,264,11,True,C-F,81
+2532,Devin,Cannady,Princeton,Princeton/USA,1996-05-21,USA,2020,1,183,30,True,G,74
+2551,Kevin,Hervey,Texas-Arlington,Texas-Arlington/USA,1996-07-09,USA,0,1,230,15,True,F,81
+2557,Jontay,Porter,Missouri,Missouri/USA,1999-11-15,USA,2020,0,240,4,True,C-F,83
+2563,Cole,Anthony,North Carolina,North Carolina/USA,2000-05-15,USA,2020,1,185,50,True,G,75
+2566,LaMelo,Ball,Illawarra,Illawarra/USA,2001-08-22,USA,2020,1,180,1,True,G,79
+2568,Desmond,Bane,TCU,TCU/USA,1998-06-25,USA,2020,1,215,22,True,G,77
+2569,Saddiq,Bey,Villanova,Villanova/USA,1999-04-09,USA,2020,1,215,41,True,F,79
+2570,Tyler,Bey,Colorado,Colorado/USA,1998-02-10,USA,2020,1,215,2,True,F,79
+2574,Vernon,Carey Jr.,Duke,Duke/USA,2001-02-25,USA,2020,1,270,13,True,F-C,81
+2579,Javin,DeLaurier,Duke,Duke/USA,1998-04-07,USA,0,0,234,12,True,C,82
+2584,Anthony,Edwards,Georgia,Georgia/USA,2001-08-05,USA,2020,1,225,1,True,G,76
+2585,CJ,Elleby,Washington State,Washington State/USA,2000-06-16,USA,2020,1,200,16,True,F-G,78
+2586,Malik,Fitts,St. Mary's College,St. Mary's College/USA,1997-07-04,USA,2020,1,230,8,True,F,77
+2587,Malachi,Flynn,San Diego State,San Diego State/USA,1998-05-09,USA,2020,1,175,22,True,G,73
+2589,Trent,Forrest,Florida State,Florida State/USA,1998-06-12,USA,2020,1,210,3,True,G,76
+2590,Anthony,Gill,Virginia,Virginia/USA,1992-10-17,USA,2020,1,230,16,True,F,79
+2597,R.J.,Hampton,New Zealand Breakers,New Zealand Breakers/USA,2001-02-07,USA,2020,1,175,13,True,G,76
+2602,Elijah,Hughes,Syracuse,Syracuse/USA,1998-03-10,USA,2020,1,215,19,True,G,77
+2604,Isaiah,Joe,Arkansas,Arkansas/USA,1999-07-02,USA,2020,1,165,7,True,G,76
+2605,Mason,Jones,Arkansas,Arkansas/USA,1998-07-21,USA,2020,1,200,40,True,G,76
+2606,Tre,Jones,Duke,Duke/USA,2000-01-08,USA,2020,1,185,33,True,G,73
+2607,Nathan,Knight,William & Mary,William & Mary/USA,1997-09-20,USA,2020,1,253,13,True,F-C,82
+2609,Anthony,Lamb,Vermont,Vermont/USA,1998-01-20,USA,2020,1,227,33,True,F,78
+2610,Saben,Lee,Vanderbilt,Vanderbilt/USA,1999-06-23,USA,2020,1,183,38,True,G,74
+2611,Kira,Lewis Jr.,Alabama,Alabama/USA,2001-04-06,USA,2020,1,170,13,True,G,73
+2617,Kenyon,Martin Jr.,IMG Academy (FL),IMG Academy (FL)/USA,2001-01-06,USA,2020,1,215,6,True,F,77
+2620,Skylar,Mays,Louisiana State,Louisiana State/USA,1997-09-05,USA,2020,1,205,4,True,G,76
+2621,Jaden,McDaniels,Washington,Washington/USA,2000-09-29,USA,2020,1,185,3,True,F,81
+2626,Aaron,Nesmith,Vanderbilt,Vanderbilt/USA,1999-10-16,USA,2020,1,215,23,True,G-F,77
+2627,Zeke,Nnaji,Arizona,Arizona/USA,2001-01-09,USA,2020,1,240,22,True,F-C,81
+2628,Jordan,Nwora,Louisville,Louisville/USA,1998-09-09,USA,2020,1,225,13,True,F,80
+2629,Onyeka,Okongwu,Southern California,Southern California/USA,2000-12-11,USA,2020,1,240,17,True,F-C,80
+2630,Isaac,Okoro,Auburn,Auburn/USA,2001-01-26,USA,2020,1,225,35,True,F-G,77
+2631,Daniel,Oturu,Minnesota,Minnesota/USA,1999-09-20,USA,2020,1,240,10,True,C,80
+2634,Myles,Powell,Seton Hall,Seton Hall/USA,1997-07-07,USA,2021,0,195,5,True,G,74
+2635,Payton,Pritchard,Oregon,Oregon/USA,1998-01-28,USA,2020,1,195,11,True,G,73
+2636,Immanuel,Quickley,Kentucky,Kentucky/USA,1999-06-17,USA,2020,1,190,5,True,G,75
+2638,Paul,Reed,DePaul,DePaul/USA,1999-06-14,USA,2020,1,210,44,True,F,81
+2640,Grant,Riller,College of Charleston,College of Charleston/USA,1997-02-08,USA,2020,1,190,5,True,G,73
+2642,Nathan,Sestina,Kentucky,Kentucky/USA,1997-05-12,USA,0,0,234,41,True,F,81
+2644,Jalen,Smith,Maryland,Maryland/USA,2000-03-16,USA,2020,1,215,25,True,F-C,82
+2645,Xavier,Sneed,Kansas State,Kansas State/USA,1997-12-21,USA,2021,0,215,19,True,F,77
+2646,Cassius,Stanley,Duke,Duke/USA,1999-08-18,USA,2020,1,190,2,True,G,77
+2647,Lamar,Stevens,Penn State,Penn State/USA,1997-07-09,USA,2020,1,230,8,True,F,78
+2648,Isaiah,Stewart,Washington,Washington/USA,2001-05-22,USA,2020,1,250,28,True,F-C,80
+2650,Jae'Sean,Tate,Ohio State,Ohio State/USA,1995-10-28,USA,2020,1,230,8,True,F,76
+2652,Tyrell,Terry,Stanford,Stanford/USA,2000-09-28,USA,2020,1,160,3,True,G,74
+2653,Jon,Teske,Michigan,Michigan/USA,1997-05-04,USA,2021,0,265,15,True,C,85
+2654,Brodric,Thomas,Truman State,Truman State/USA,1997-01-28,USA,2020,1,185,97,True,G,77
+2656,Xavier,Tillman,Michigan State,Michigan State/USA,1999-01-12,USA,2020,1,245,2,True,F,80
+2658,Obi,Toppin,Dayton,Dayton/USA,1998-03-04,USA,2020,1,220,1,True,F,81
+2661,Devin,Vassell,Florida State,Florida State/USA,2000-08-23,USA,2020,1,200,24,True,G-F,77
+2664,Patrick,Williams,Florida State,Florida State/USA,2001-08-26,USA,2020,1,215,44,True,F,79
+2665,Cassius,Winston,Michigan State,Michigan State/USA,1998-02-28,USA,2020,1,185,5,True,G,73
+2666,James,Wiseman,Memphis,Memphis/USA,2001-03-31,USA,2020,1,240,33,True,C,84
+2667,Robert,Woodard II,Mississippi State,Mississippi State/USA,1999-09-22,USA,2020,1,235,42,True,F,78
+2668,Naji,Marshall,Xavier,Xavier/USA,1998-01-24,USA,2020,1,220,8,True,F,79
+2671,Trevelin,Queen,New Mexico State,New Mexico State/USA,1997-02-25,USA,2021,0,190,8,True,G,78
+2672,Nate,Hinton,Houston,Houston/USA,1999-06-08,USA,2020,1,210,14,True,G-F,77
+2782,Mike,James,Lamar,Lamar/USA,1990-08-18,USA,2017,2,175,55,True,G,73
+2789,Scottie,Barnes,Florida State,Florida State/USA,2001-08-01,USA,2021,0,225,4,True,F,79
+2792,Brandon,Boston Jr.,Kentucky,Kentucky/USA,2001-11-28,USA,2021,0,188,4,True,G,78
+2793,James,Bouknight,Connecticut,Connecticut/USA,2000-09-18,USA,2021,0,190,2,True,G,76
+2794,Chaundee,Brown Jr.,Michigan,Michigan/USA,1998-12-04,USA,2021,0,215,38,True,F,77
+2795,Greg,Brown III,Texas,Texas/USA,2001-09-01,USA,2021,0,206,4,True,F,79
+2796,Jared,Butler,Baylor,Baylor/USA,2000-08-25,USA,2021,0,193,13,True,G,75
+2798,Justin,Champagnie,Pittsburgh,Pittsburgh/USA,2001-06-29,USA,2021,0,206,11,True,G-F,78
+2799,Josh,Christopher,Arizona State,Arizona State/USA,2001-12-08,USA,2021,0,215,9,True,G,75
+2800,Sharife,Cooper,Auburn,Auburn/USA,2001-06-11,USA,2021,0,176,2,True,G,73
+2801,Cade,Cunningham,Oklahoma State,Oklahoma State/USA,2001-09-25,USA,2021,0,220,2,True,G,78
+2802,Ayo,Dosunmu,Illinois,Illinois/USA,2000-01-17,USA,2021,0,200,12,True,G,76
+2804,David,Duke Jr.,Providence,Providence/USA,1999-10-13,USA,2021,0,204,6,True,G,76
+2805,Kessler,Edwards,Pepperdine,Pepperdine/USA,2000-08-09,USA,2021,0,203,14,True,F,79
+2807,Luka,Garza,Iowa,Iowa/USA,1998-12-27,USA,2021,0,243,55,True,C,82
+2811,Quentin,Grimes,Houston,Houston/USA,2000-05-08,USA,2021,0,210,6,True,G,76
+2812,Sam,Hauser,Virginia,Virginia/USA,1997-12-08,USA,2021,0,217,30,True,F,79
+2813,Aaron,Henry,Michigan State,Michigan State/USA,1999-08-30,USA,2021,0,210,50,True,F,77
+2816,Bones,Hyland,Virginia Commonwealth,Virginia Commonwealth/USA,2000-09-14,USA,2021,0,169,3,True,G,74
+2817,Isaiah,Jackson,Kentucky,Kentucky/USA,2002-01-10,USA,2021,0,205,22,True,F,82
+2818,David,Johnson,Louisville,Louisville/USA,2001-02-26,USA,2021,0,203,13,True,G,76
+2819,Jalen,Johnson,Duke,Duke/USA,2001-12-18,USA,2021,0,219,1,True,F,80
+2820,Keon,Johnson,Tennessee,Tennessee/USA,2002-03-10,USA,2021,0,185,6,True,G,76
+2822,Herbert,Jones,Alabama,Alabama/USA,1998-10-06,USA,2021,0,206,5,True,F,79
+2825,Corey,Kispert,Gonzaga,Gonzaga/USA,1999-03-03,USA,2021,0,224,24,True,F,78
+2828,Scottie,Lewis,Florida,Florida/USA,2000-03-12,USA,2021,0,185,16,True,G,77
+2829,Isaiah,Livers,Michigan,Michigan/USA,1998-07-28,USA,2021,0,232,12,True,F,78
+2831,Tre,Mann,Florida,Florida/USA,2001-02-03,USA,2021,0,178,23,True,G,75
+2832,Miles,McBride,West Virginia,West Virginia/USA,2000-09-08,USA,2021,0,195,2,True,G,73
+2833,Mac,McClung,Texas Tech,Texas Tech/USA,1999-01-06,USA,2021,0,185,37,True,G,74
+2834,Davion,Mitchell,Baylor,Baylor/USA,1998-09-05,USA,2021,0,202,15,True,G,72
+2835,Evan,Mobley,Southern California,Southern California/USA,2001-06-18,USA,2021,0,215,4,True,C,83
+2836,Moses,Moody,Arkansas,Arkansas/USA,2002-05-31,USA,2021,0,211,4,True,G,77
+2837,Trey,Murphy III,Virginia,Virginia/USA,2000-06-18,USA,2021,0,206,25,True,F,80
+2840,Jamorko,Pickett,Georgetown,Georgetown/USA,1997-12-24,USA,2021,0,206,24,True,F,81
+2842,Jason,Preston,Ohio,Ohio/USA,1999-08-10,USA,0,0,181,17,True,G,75
+2845,Austin,Reaves,Oklahoma,Oklahoma/USA,1998-05-29,USA,2021,0,197,15,True,G,77
+2846,Jeremiah,Robinson-Earl,Villanova,Villanova/USA,2000-11-03,USA,2021,0,242,50,True,F,80
+2848,Day'Ron,Sharpe,North Carolina,North Carolina/USA,2001-11-06,USA,2021,0,265,20,True,C,81
+2849,Jericho,Sims,Texas,Texas/USA,1998-10-20,USA,2021,0,250,45,True,C,81
+2851,Jaden,Springer,Tennessee,Tennessee/USA,2002-09-25,USA,2021,0,202,11,True,G,76
+2852,Jalen,Suggs,Gonzaga,Gonzaga/USA,2001-06-03,USA,2021,0,205,4,True,G,77
+2853,Terry,Taylor,Austin Peay,Austin Peay/USA,1999-09-23,USA,2021,0,230,21,True,F,77
+2854,MaCio,Teague,Baylor,Baylor/USA,1997-06-11,USA,0,0,195,31,True,G,76
+2856,JT,Thor,Auburn,Auburn/USA,2002-08-26,USA,2021,0,203,21,True,F,81
+2857,Isaiah,Todd,NBA G League Ignite,NBA G League Ignite/USA,2001-10-17,USA,2021,0,219,14,True,F,81
+2859,Ish,Wainright,Baylor,Baylor/USA,1994-09-12,USA,2021,0,250,12,True,F,77
+2861,Trendon,Watford,Louisiana State,Louisiana State/USA,2000-11-09,USA,2021,0,237,2,True,F,80
+2862,Joe,Wieskamp,Iowa,Iowa/USA,1999-08-23,USA,2021,0,205,15,True,G-F,78
+2863,Aaron,Wiggins,Maryland,Maryland/USA,1999-01-02,USA,2021,0,190,21,True,G,76
+2864,Ziaire,Williams,Stanford,Stanford/USA,2001-09-12,USA,2021,0,185,8,True,F,81
+2865,McKinley,Wright IV,Colorado,Colorado/USA,1998-10-25,USA,2021,0,192,25,True,G,71
+2878,Jeff,Dowtin,Rhode Island,Rhode Island/USA,1997-05-10,USA,2021,0,180,15,True,G,75
+2884,DeJon,Jarreau,Houston,Houston/USA,1998-01-23,USA,2021,0,185,33,True,G,77
+2901,RJ,Nembhard Jr.,TCU,TCU/USA,1999-03-22,USA,2021,0,200,5,True,G,77
+2914,Jordan,Schakel,San Diego State,San Diego State/USA,1998-06-13,USA,2021,0,200,20,True,G,78
+2917,Javonte,Smart,Louisiana State,Louisiana State/USA,1999-06-03,USA,2021,0,205,15,True,G,76
+2922,DJ,Stewart,Mississippi State,Mississippi State/USA,1999-07-28,USA,0,0,205,18,True,G,78
+2940,Derrick,Alston Jr.,Boise State,Boise State/USA,1997-09-17,USA,0,0,190,10,True,F,81
+2941,Jose,Alvarado,Georgia Tech,Georgia Tech/USA,1998-04-12,USA,2021,0,179,15,True,G,72
+3067,Feron,Hunt,Southern Methodist,Southern Methodist/USA,1999-07-05,USA,2021,0,195,44,True,F,80
+3081,Carlik,Jones,Louisville,Louisville/USA,1997-12-23,USA,2021,0,185,22,True,G,73
+3091,Braxton,Key,Virginia,Virginia/USA,1997-02-14,USA,2021,0,225,8,True,F,80
+3154,Daishen,Nix,NBA G League Ignite,NBA G League Ignite/USA,2002-02-13,USA,2021,0,224,15,True,G,77
+3195,Matt,Ryan,Tennessee-Chattanooga,Tennessee-Chattanooga/USA,1997-04-17,USA,2021,0,215,37,True,F,79
+3258,MJ,Walker,Florida State,Florida State/USA,1998-03-28,USA,2021,0,213,21,True,G,77
+3278,Moses,Wright,Georgia Tech,Georgia Tech/USA,1998-12-23,USA,2021,0,233,5,True,F,81
+3380,Malcolm,Hill,Illinois,Illinois/USA,1995-10-26,USA,2021,0,220,14,True,F,78
+3396,Xavier,Moon,Morehead State,Morehead State/USA,1995-01-02,USA,2021,0,165,15,True,G,74
+3398,Brandon,Williams,Arizona,Arizona/USA,1999-11-22,USA,2021,0,190,8,True,G,74
+3404,Lindy,Waters III,Oklahoma State,Oklahoma State/USA,1997-07-28,USA,2021,0,215,12,True,F,78
