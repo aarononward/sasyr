@@ -1,9 +1,12 @@
 from flask import Flask, render_template, send_file
+from flask_cors import CORS
 
 
 # Flask Setup
 #################################################
 app = Flask(__name__)
+## https://stackoverflow.com/questions/20035101/why-does-my-javascript-code-receive-a-no-access-control-allow-origin-header-i
+CORS(app)
 
 #################################################
 # Flask Routes
