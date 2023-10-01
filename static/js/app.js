@@ -358,25 +358,24 @@ function init(){
   fetchPromise().then((position_data) => {
   x = position_data
   console.log(x)
+  let values
+  let measures=[]
     // Loop through the outer dictionary
-    for (const columns in x) {
-      let column_names = []
-      if (x.hasOwnProperty(columns)) {
-        const innerDictionary =x[columns];
-        // column_names.append(column);
-        
-        // console.log(columns)
+    for (const positions in x) {
+      
+      if (x.hasOwnProperty(positions)) {
+        const innerDictionary =x[positions];
+  
         // Loop through the inner dictionary
-        for (const positions in innerDictionary) {
+        for (const columns in innerDictionary) {
           // let positions=[]
-          if (innerDictionary.hasOwnProperty(positions)) {
-            const value = innerDictionary[positions];
-            console.log(positions)
-            // positions.push(innerDictionary.positions)
-            // positions.append(position)
+          if (innerDictionary.hasOwnProperty(columns)) {
+             measures.append(columns)
+            const value = innerDictionary[columns];
+
             // console.log(`Inner Key: ${position}, Value: ${value}`);
           
-
+          
             function radarbuilder(cow){    
             //Create the radar chart
             let radar = [{
@@ -386,7 +385,7 @@ function init(){
               //measure values
               r:[value], 
         
-              theta: column_names,
+              theta: [columns],
         
               fill:'toself'
             }];
@@ -405,30 +404,44 @@ function init(){
     
             //Add the plot to the page
             Plotly.newPlot("pos-radar",radar,layout);
-            }
-
+            
+          }
+          }
+        }
+      }
+      
+                //Build the charts
+                radarbuilder(positions[0]);
+    }
+    console.log(measures)
             //Connect to the dropdown menu
             let positionDropdownMenu = d3.select("#positionDataset");
-            //Loop through the innerDictionary
-            for (let i=0; i<columns.length;i++){
+            
+            // let z = Array.from(positions);
+            //Loop through the position types
+            let position_titles = Array.from(new Set(Object.keys(x)))
+            
+            console.log(`position titles`, position_titles)
+            
+            for (let i=0; i<position_titles.length;i++){
                 
               //Add an option to the table
               positionDropdownMenu.append('option')
                 
               //Add the position as an option
-              .text(positions).property("value",positions);
+              .text(position_titles[i]).property("value",position_titles[i]);
             }
             
-            //Build the charts
-            radarbuilder(positions[0]);
+            
+
+
             
             // //Fill the Demographic table
            
             // demobuilder(names[0]);
-          }
-        }
-      }
-    }
+          
+       
+     
   })
   
   //Fill player section
