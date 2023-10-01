@@ -357,9 +357,9 @@ function init(){
   let url = position_url
   fetchPromise().then((position_data) => {
   x = position_data
-  console.log(x)
+  // console.log(x)
   let values
-  let measures=[]
+  let measures
     // Loop through the outer dictionary
     for (const positions in x) {
       
@@ -370,7 +370,7 @@ function init(){
         for (const columns in innerDictionary) {
           // let positions=[]
           if (innerDictionary.hasOwnProperty(columns)) {
-             measures.append(columns)
+             
             const value = innerDictionary[columns];
 
             // console.log(`Inner Key: ${position}, Value: ${value}`);
@@ -383,9 +383,9 @@ function init(){
               type: 'scatterpolar',
         
               //measure values
-              r:[value], 
+              r:values, 
         
-              theta: [columns],
+              theta: measures,
         
               fill:'toself'
             }];
@@ -404,16 +404,24 @@ function init(){
     
             //Add the plot to the page
             Plotly.newPlot("pos-radar",radar,layout);
-            
+          
+            measures=Array.from(new Set(Object.keys(innerDictionary)))
+            values=Array.from(new Set(Object.values(innerDictionary)))
+          
+            }
           }
-          }
+          
         }
+        
+
       }
       
                 //Build the charts
                 radarbuilder(positions[0]);
     }
+    
     console.log(measures)
+    console.log(values)
             //Connect to the dropdown menu
             let positionDropdownMenu = d3.select("#positionDataset");
             
@@ -421,7 +429,7 @@ function init(){
             //Loop through the position types
             let position_titles = Array.from(new Set(Object.keys(x)))
             
-            console.log(`position titles`, position_titles)
+            // console.log(`position titles`, position_titles)
             
             for (let i=0; i<position_titles.length;i++){
                 
