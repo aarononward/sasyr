@@ -15,13 +15,19 @@ CORS(app)
 @app.route("/")
 def home():
     return(
-        f"Available Routes:<br/>"
+        f"JSON file Dowload Routes:<br/>"
+        f"/player_personal_data<br/>"
         f"/cluster_stats<br/>"
         f"/pca_clusters<br/>"
         f"/player_stats<br/>"
         f"/position_stats<br/>"
+        f"<br/>"
+        f"Data Display Route:<br/>"
         f"/charts_page"
     )
+@app.route("/player_personal_data")
+def player_personal_data():
+    return send_file('static/data/player_personal_data_t.json')
 
 @app.route("/pca_clusters")
 def pca_clusters():
