@@ -39,7 +39,7 @@ header('Access-Control-Allow-Origin: *');
         <div class="well">
           <h5>Cluster ID No.:</h5>
           
-          <select id="selDataset" onchange="clusterOptionChanged(this.value)"></select>
+          <select id="clusterDataset" onchange="clusterOptionChanged(this.value)"></select>
           <div class="cluster-radar">
             <div id="radar"></div>
           </div>
@@ -51,9 +51,9 @@ header('Access-Control-Allow-Origin: *');
         <div class="well">
           <h5>Position:</h5>
           
-          <select id="selDataset" onchange="positionOptionChanged(this.value)"></select>
+          <select id="positionDataset" onchange="positionOptionChanged(this.value)"></select>
           <div class="position-radar">
-            <div id="radar"></div>
+            <div id="pos-radar"></div>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ header('Access-Control-Allow-Origin: *');
         <div class="well">
           <h5>Player ID No.:</h5>
           
-          <select id="selDataset" onchange="playerOptionChanged(this.value)"></select>
+          <select id="playerDataset" onchange="playerOptionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
@@ -81,7 +81,7 @@ header('Access-Control-Allow-Origin: *');
   
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="../static/js/app.js"></script>
+  <script src="/static/js/app.js"></script>
   
 
 </body>
