@@ -16,32 +16,32 @@ CORS(app)
 def home():
     return(
         f"Available Routes:<br/>"
-        f"/api/v1.0/cluster_stats<br/>"
-        f"/api/v1.0/pca_clusters<br/>"
-        f"/api/v1.0/player_stats<br/>"
-        f"/api/v1.0/position_stats<br/>"
-        f"/api/v1.0/charts_page"
+        f"/cluster_stats<br/>"
+        f"/pca_clusters<br/>"
+        f"/player_stats<br/>"
+        f"/position_stats<br/>"
+        f"/charts_page"
     )
 
-@app.route("/api/v1.0/pca_clusters")
+@app.route("/pca_clusters")
 def pca_clusters():
     return send_file('static/data/player_pca_clusters')
 
 
-@app.route("/api/v1.0/cluster_stats")
+@app.route("/cluster_stats")
 def cluster_stats():
     return send_file('static/data/Cluster_Stats_Aggregate_Norm')
 
 
-@app.route("/api/v1.0/player_stats")
+@app.route("/player_stats")
 def player_stats():
-    return send_file('Player_Stats_Aggregate_Norm')
+    return send_file('static/data/Player_Stats_Aggregate_Norm')
 
-@app.route("/api/v1.0/position_stats")
+@app.route("/position_stats")
 def position_stats():
-    return send_file('Position_Stats_Aggregate_Norm')
+    return send_file('static/data/Position_Stats_Aggregate_Norm')
 
-@app.route("/api/v1.0/charts_page")
+@app.route("/charts_page")
 def charts_page():
     return render_template('index.html')
 
