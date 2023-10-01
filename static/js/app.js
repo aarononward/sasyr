@@ -4,13 +4,6 @@
 
 //create init function to load all json files
 //make sure to console log values 
-
-// let pca_clusters_url = 'http://127.0.0.1:5000/api/v1.0/pca_clusters'
-
-// // let pca_clusters = d3.json(pca_clusters_url)
-
-// let x 
-
 async function fetchPromise() {
       const [response] = await Promise.all([
         fetch(url),
@@ -18,21 +11,15 @@ async function fetchPromise() {
     const data = await response.json();
     return data;
 }
-// let clusters = {}
-// fetchPromise().then((pca_clusters) => {
-//   x = pca_clusters
-//   console.log(x)
-
-//   for (let i = 0; i < x.length; i++) {
-//   //Create the table creator function
+  //Create the table creator function
     
-//     // function barbuilder(cow){ 
-//       // //Save the samples section of the json data   
-//       // let sample_cluster = data.sample_clusters;
+    // function barbuilder(cow){ 
+      // //Save the samples section of the json data   
+      // let sample_cluster = data.sample_clusters;
     
-//       // //Match the chosen cluster to the cluster name
-//       // let sample_cluster = sample_clusters.filter(cat => cat.id == cow)[0];
-//     //Check for the keys in the metasample dictionary
+      // //Match the chosen cluster to the cluster name
+      // let sample_cluster = sample_clusters.filter(cat => cat.id == cow)[0];
+    //Check for the keys in the metasample dictionary
 //             for (let key in x){
 //               if (i.hasOwnProperty(key)) {
                 
@@ -68,87 +55,7 @@ async function fetchPromise() {
 //   // }
 // })
 
-// console.log(x)
 
-// const PC1 = pca_clusters[[Symbol.for("PromiseResult")]].PC1;
-
-// // Convert the values of 'PC1' to an array.
-// const PC1Array = Object.values(PC1);
-
-// Now 'PC1Array' contains the array of values from 'PC1'.
-// console.log(PC1Array);
-//   PC1 : fetchPCAClusters().then((data)=> {data.PC1}),
-//   PC2 : fetchPCAClusters().then((data)=>{data.PC2}),
-//   PC3 : fetchPCAClusters().then((data)=>{data.PC2}),
-//   PC4 : fetchPCAClusters().then((data)=>{data.PC2}),
-//   PC5 : fetchPCAClusters().then((data)=>{data.PC2}),
-// }
-
-// console.log(pc1)
-// for (let i=0; i < pca_clusters.length)
-
-// console.log()
-
-
-// const pca_clusters = Promise.all([
-//   fetch(url)
-// ]);
-// try{
-//   // const [response] = await Promise.all([
-//   //   fetch(url),
-//   // ]);
-//   const data = pca_clusters;
-// } catch (error) {
-//   console.log(error)
-// }
-// console.log(pca_clusters)
-// console.log(pca_clusters)
-// for (let i = 0; i<pca_clusters.length; i++) {
-//     let column = pca_clusters.key
-//     console.log(i)
-// }
-
-// 
-
-//  let pca_clusters = d3.json(url).then((response) => response)
-// //  .then((user) => {
-// //    return user.pca_clusters;
-// //  });
-//.then(function(response) {return response}).then()
-// console.log(pca_clusters) 
-// console.log(typeof pca_clusters)
-// console.log(pca_clusters.data)
-// .then(console.log(response))
-//     let  = getDataByFuelType(data);
-// })
-// console.log(pca_table)
-
-// let cluster_table = d3.csv("/Data/Cluster_Stats_Aggregate_Norm.csv");
-// let position_table = d3.csv("/Data/Player_Stats_Aggregate_Norm.csv"); 
-// let player_table = d3.csv("/Data/Position_Stats_Aggregate_Norm.csv");  
-
-
-
-
-
-//Connect to the dropdown menu
-//     let dropdownMenu = d3.select("#selDataset");
-
-//     //Grab the json data   
-//     d3.json(url).then(function(data) {
-
-//             //Grabs the is from the Names array
-//             let names = data.names;
-            
-//             //Loop through the names array
-//             for (let i=0; i<names.length;i++){
-                
-//                 //Add an option to the table
-//                 dropdownMenu.append('option')
-                
-//                 //Add the id as an option
-//                 .text(names[i]).property("value",names[i]);
-//             }
 // //Create the table creator function
 //   function barbuilder(cow){ 
 //     //Save the samples section of the json data   
@@ -166,8 +73,7 @@ async function fetchPromise() {
 
 //     //Save the otu_labels list of sample to a variable
 //     // let otu_labels = sample.otu_labels;
-    
-//     ////////let the stacked chart represent the values for each player id in each cluster
+  
 
 
 
@@ -197,10 +103,7 @@ async function fetchPromise() {
 //     });
 
 
-// ////Code for filling out the position section
-// let position_url = "http://127.0.0.1:5000/api/v1.0/position_stats"
-// let y
-// let url = position_url
+
 // fetchPromise().then((position_data) => {
 //   y = position_data
 //   // console.log(y)
@@ -218,56 +121,361 @@ async function fetchPromise() {
 //           console.log(`Inner Key: ${position}}, Value: ${value}`);
 //         }
 //       }
-    
 
 
-//       function radarbuilder(cow){    
-//         //Create the radar chart
-//         let radar = [{
-        
-//             type: 'scatterpolar',
-        
-// //             //measure values
-// //             r:value, 
-        
-// //             theta: column_names,
-        
-//             fill:'toself'
-//         }];
+// //Create a function to clear the Dempgraphic table
+function clearDemoTable(){
+    
+    //Connect to the table container 
+    let panel_body = document.getElementById('player-info');
+    
+    //Clear the table container
+    panel_body.innerHTML = '';
 
-//         //Create layout parameters
-//         let layout = {
-        
-//             polar: {
-//                 radialaxis:{
-//                     visible: true,
-//                     range: [0,1]
-//                 }
-//             },
-//             showlegend: false   
-//         }
+};
+
+//Create a functions to call the other functions if dropdown choice is changed
+function clusterOptionChanged(goat){
+  //Fill charts
+  clusterRadarBuilder(goat);
+};
+
+function positionOptionChanged(pig){
+  //Fill charts
+  positionRadarBuilder(pig);
+};
     
-//         //Add the plot to the page
-//         Plotly.newPlot("radar",radar,layout);
+function playerOptionChanged(sheep){
+  //Clear the demo table
+  clearDemoTable();
+
+  //Fill charts
+  playerRadarBuilder(sheep);
     
+  //Fill the demographics table
+  demobuilder(sheep);
+}
+
+
+
+
+  //create function to pull json data
+  async function fetchPromise(url) {
+    const [response] = await Promise.all([
+      fetch(url),
+    ]);
+  const data = await response.json();
+  return data;
+  }
+  
+  // Create function to build radar charts
+  // function radarbuilder(cow){
+  //   //Match the chosen cluster to the cluster name
+    
+  // let  x = position.filter(cat => cat.position == cow)[0];   
+  //   //Create the radar chart
+  //   let radar = [{
+
+  //     type: 'scatterpolar',
+
+  //     //measure values
+  //     r:values, 
+
+  //     theta: measures,
+
+  //     fill:'toself'
+  //   }];
+
+  //   //Create layout parameters
+  //   let layout = {
+
+  //     polar: {
+  //       radialaxis:{
+  //           visible: true,
+  //           range: [0,1]
+  //       }
+  //     },
+  //   showlegend: false   
+  //   }
+
+  //   //Add the plot to the page
+  //   Plotly.newPlot("pos-radar",radar,layout);
+  
+
+  
+  //   }
+
+
+
+
+//create empty variable for position json data
+let position=[]
+//  Loop through the outer dictionary
+for (const item in position) {
+    if (item.hasOwnProperty(y)) {
+      const innerDictionary =item[y];
+      // let column_names = [column];
+
+      // Loop through the inner dictionary
+      for (const x in innerDictionary) {
+        if (innerDictionary.hasOwnProperty(x)) {
+          const value = innerDictionary[x];
+          console.log(`Inner Key: ${x}}, Value: ${value}`);
+        }
+      }
+    }}
+
+let position_titles= Array.from(Object.values(position))
+//console.log(position)
+
+
+
+// //Fill the page once it's open
+function init(){
+  
+  //Fill cluster radar chart 
+
+  //grab cluster_stats endpoint
+  let cluster_url = "http://127.0.0.1:5000/cluster_stats"
+  
+  //create empty variable for position json data
+  let cluster_data
+
+  //create empty variable to store position values
+  let cluster_values = []
+
+  //create empty variable to store position measures
+  let cluster_measures
+  
+  //run fetchPromise() function to grab data and store it in position_data variable
+  fetchPromise(cluster_url).then((cluster_json) => {
+    cluster_data = cluster_json
+    
+    // Loop through the outer dictionary
+    for (const clusters in cluster_data) {
+      //grab the position titles from the position_json
       
-// //       };
-// //     }
-// //   }
-// // });
-// // //Create a function to clear the Dempgraphic table
-// // function clearDemoTable(){
-    
-//     //Connect to the table container 
-//     let panel_body = document.getElementById('player-info');
-    
-//     //Clear the table container
-//     panel_body.innerHTML = '';
+      //access inner dictionary
+      if (cluster_data.hasOwnProperty(clusters)) {
+        const innerDictionary =cluster_data[clusters];
 
-// };
+        cluster_measures=Array.from(new Set(Object.keys(innerDictionary)))
+        
+        cluster_values.push(Object.values(innerDictionary))
+      }   
+    }
+    
+    //Connect to the dropdown menu
+    let clusterDropdownMenu = d3.select("#clusterDataset");
+    
+    cluster_list = Array.from(new Set(Object.keys(cluster_json)))
+  
+    //Loop through the position types
+    for (let i=0; i<cluster_list.length;i++){ 
+      //Add an option to the table
+      clusterDropdownMenu.append('option')
+                
+      //Add the position as an option
+      .text(cluster_list[i]).property("value",cluster_list[i]);
+    }
+    
+    function clusterRadarBuilder(values,measures){
+      //Match the chosen cluster to the cluster name
+      // let  x = position_list.filter(cat => cat.index == cow)[0];
 
-//Create a function to fill the Demographic table
-// function demobuilder(goat){    
+      //Create the radar chart
+      let radar = [{
+
+        type: 'scatterpolar',
+
+        //measure values
+        r:values, 
+
+        theta: measures,
+
+        fill:'toself'
+      }];
+
+      //Create layout parameters
+      let layout = {
+
+        polar: {
+          radialaxis:{
+              visible: true,
+              range: [0,1]
+          }
+        },
+        showlegend: false   
+      }
+
+    //Add the plot to the page
+    Plotly.newPlot("clus-radar",radar,layout);  
+  }
+  clusterRadarBuilder(cluster_values[0],cluster_measures)        
+  })
+
+  //Fill position radar chart 
+
+  //grab position_stats endpoint
+  let position_url = "http://127.0.0.1:5000/position_stats"
+  
+  //create empty variable for position json data
+  let position_data
+
+  //create empty variable to store position values
+  let position_values = []
+
+  //create empty variable to store position measures
+  let position_measures
+  
+  //run fetchPromise() function to grab data and store it in position_data variable
+  fetchPromise(position_url).then((position_json) => {
+    position_data = position_json
+    position.push(position_data)
+    // Loop through the outer dictionary
+    for (const positions in position_data) {
+
+      //access inner dictionary
+      if (position_data.hasOwnProperty(positions)) {
+        const innerDictionary =position_json[positions];
+
+        position_measures=Array.from(new Set(Object.keys(innerDictionary)))
+        
+        position_values.push(Object.values(innerDictionary))
+      }   
+    }
+    
+    //Connect to the dropdown menu
+    let positionDropdownMenu = d3.select("#positionDataset");
+    
+    position_list = Array.from(new Set(Object.keys(position_json)))
+  
+    //Loop through the position types
+    for (let i=0; i<position_list.length;i++){ 
+      //Add an option to the table
+      positionDropdownMenu.append('option')
+                
+      //Add the position as an option
+      .text(position_list[i]).property("value",position_list[i]);
+    }
+    
+    function positionRadarBuilder(values,measures){
+      //Match the chosen cluster to the cluster name
+      // let  x = position_list.filter(cat => cat.index == cow)[0];
+
+      //Create the radar chart
+      let radar = [{
+
+        type: 'scatterpolar',
+
+        //measure values
+        r:values, 
+
+        theta: measures,
+
+        fill:'toself'
+      }];
+
+      //Create layout parameters
+      let layout = {
+
+        polar: {
+          radialaxis:{
+              visible: true,
+              range: [0,1]
+          }
+        },
+        showlegend: false   
+      }
+
+    //Add the plot to the page
+    Plotly.newPlot("pos-radar",radar,layout);  
+  }
+  positionRadarBuilder(position_values[0],position_measures)        
+  })
+
+  
+  //Fill player section
+  //grab position_stats endpoint
+  let player_url = "http://127.0.0.1:5000/player_stats"
+  
+  //create empty variable for position json data
+  let player_data
+
+  //create empty variable to store position values
+  let player_values = []
+
+  //create empty variable to store position measures
+  let player_measures
+  
+  //run fetchPromise() function to grab data and store it in position_data variable
+  fetchPromise(player_url).then((player_json) => {
+    player_data = player_json
+    // Loop through the outer dictionary
+    for (const player in player_data) {
+      //grab the position titles from the position_json
+      
+      //access inner dictionary
+      if (player_data.hasOwnProperty(player)) {
+        const innerDictionary =player_data[player];
+
+        player_measures=Array.from(new Set(Object.keys(innerDictionary)))
+        
+        player_values.push(Object.values(innerDictionary))
+      }   
+    }
+    
+    //Connect to the dropdown menu
+    let playerDropdownMenu = d3.select("#playerDataset");
+    
+    player_list = Array.from(new Set(Object.keys(player_json)))
+  
+    //Loop through the position types
+    for (let i=0; i<player_list.length;i++){ 
+      //Add an option to the table
+      playerDropdownMenu.append('option')
+                
+      //Add the position as an option
+      .text(player_list[i]).property("value",player_list[i]);
+    }
+    
+    function playerRadarBuilder(values,measures){
+      //Match the chosen cluster to the cluster name
+      // let  x = position_list.filter(cat => cat.index == cow)[0];
+
+      //Create the radar chart
+      let radar = [{
+
+        type: 'scatterpolar',
+
+        //measure values
+        r:values, 
+
+        theta: measures,
+
+        fill:'toself'
+      }];
+
+      //Create layout parameters
+      let layout = {
+
+        polar: {
+          radialaxis:{
+              visible: true,
+              range: [0,1]
+          }
+        },
+        showlegend: false   
+      }
+
+      //Add the plot to the page
+      Plotly.newPlot("pla-radar",radar,layout);  
+    }
+    
+    playerRadarBuilder(player_values[0],player_measures)        
+
+    //Create a function to fill the Demographic table
+    //function demobuilder(goat){    
     
 //     //Grab the json data
 //     d3.json(url).then(function(data) {
@@ -326,217 +534,8 @@ async function fetchPromise() {
         
         
 // };
-
-// //Create a function to call the other functions if the chosen id is changed
-// function optionChanged(pig){
-    
-//     //Clear the demo table
-//     clearDemoTable(pig);
-
-//     //Fill charts
-//     chartbuilder(pig);
-    
-//     //Fill the demographics table
-//     demobuilder(pig);
-    
-// };
-
-// //Fill the page once it's open
-function init(){
-  async function fetchPromise() {
-    const [response] = await Promise.all([
-      fetch(url),
-    ]);
-  const data = await response.json();
-  return data;
-  }
-  
-  //Fill position radar chart 
-  let position_url = "http://127.0.0.1:5000/position_stats"
-  let x
-  let url = position_url
-  fetchPromise().then((position_data) => {
-  x = position_data
-  // console.log(x)
-  let values
-  let measures
-    // Loop through the outer dictionary
-    for (const positions in x) {
-      
-      if (x.hasOwnProperty(positions)) {
-        const innerDictionary =x[positions];
-  
-        // Loop through the inner dictionary
-        for (const columns in innerDictionary) {
-          // let positions=[]
-          if (innerDictionary.hasOwnProperty(columns)) {
-             
-            const value = innerDictionary[columns];
-
-            // console.log(`Inner Key: ${position}, Value: ${value}`);
-          
-          
-            function radarbuilder(cow){    
-            //Create the radar chart
-            let radar = [{
-        
-              type: 'scatterpolar',
-        
-              //measure values
-              r:values, 
-        
-              theta: measures,
-        
-              fill:'toself'
-            }];
-
-            //Create layout parameters
-            let layout = {
-        
-              polar: {
-                radialaxis:{
-                    visible: true,
-                    range: [0,1]
-                }
-              },
-            showlegend: false   
-            }
-    
-            //Add the plot to the page
-            Plotly.newPlot("pos-radar",radar,layout);
-          
-            measures=Array.from(new Set(Object.keys(innerDictionary)))
-            values=Array.from(new Set(Object.values(innerDictionary)))
-          
-            }
-          }
-          
-        }
-        
-
-      }
-      
-                //Build the charts
-                radarbuilder(positions[0]);
-    }
-    
-    console.log(measures)
-    console.log(values)
-            //Connect to the dropdown menu
-            let positionDropdownMenu = d3.select("#positionDataset");
-            
-            // let z = Array.from(positions);
-            //Loop through the position types
-            let position_titles = Array.from(new Set(Object.keys(x)))
-            
-            // console.log(`position titles`, position_titles)
-            
-            for (let i=0; i<position_titles.length;i++){
-                
-              //Add an option to the table
-              positionDropdownMenu.append('option')
-                
-              //Add the position as an option
-              .text(position_titles[i]).property("value",position_titles[i]);
-            }
-            
-            
-
-
-            
-            // //Fill the Demographic table
-           
-            // demobuilder(names[0]);
-          
-       
-     
-  })
-  
-  //Fill player section
-    // //Fill position radar chart 
-    // let player_url = "http://127.0.0.1:5000/player_stats"
-    // let y
-    // let url = player_url
-    // fetchPromise().then((player_data) => {
-    // y = player_data
-    // console.log(y)
-    //   // Loop through the outer dictionary
-    //   for (const columns in y) {
-    //     let column_names = []
-    //     if (y.hasOwnProperty(columns)) {
-    //       const innerDictionary =y[columns];
-    //       // column_names.append(column);
-          
-    //       // console.log(columns)
-    //       // Loop through the inner dictionary
-    //       for (const positions in innerDictionary) {
-    //         // let positions=[]
-    //         if (innerDictionary.hasOwnProperty(positions)) {
-    //           const value = innerDictionary[positions];
-    //           console.log(positions)
-    //           // positions.push(innerDictionary.positions)
-    //           // positions.append(position)
-    //           // console.log(`Inner Key: ${position}, Value: ${value}`);
-            
-  
-    //           function radarbuilder(cow){    
-    //           //Create the radar chart
-    //           let radar = [{
-          
-    //             type: 'scatterpolar',
-          
-    //             //measure values
-    //             r:[value], 
-          
-    //             theta: column_names,
-          
-    //             fill:'toself'
-    //           }];
-  
-    //           //Create layout parameters
-    //           let layout = {
-          
-    //             polar: {
-    //               radialaxis:{
-    //                   visible: true,
-    //                   range: [0,1]
-    //               }
-    //             },
-    //           showlegend: false   
-    //           }
-      
-    //           //Add the plot to the page
-    //           Plotly.newPlot("pos-radar",radar,layout);
-    //           }
-  
-    //           //Connect to the dropdown menu
-    //           let positionDropdownMenu = d3.select("#positionDataset");
-    //           //Loop through the innerDictionary
-    //           for (let i=0; i<columns.length;i++){
-                  
-    //             //Add an option to the table
-    //             positionDropdownMenu.append('option')
-                  
-    //             //Add the position as an option
-    //             .text(positions).property("value",positions);
-    //           }
-              
-    //           //Build the charts
-    //           radarbuilder(positions[0]);
-              
-    //           // //Fill the Demographic table
-             
-    //           // demobuilder(names[0]);
-    //         }
-    //       }
-    //     }
-    //   }
-    // }) 
-};
-// }
-// }
-// });
-
-
-
+    //Fill the Demographic table
+    //demobuilder(names[0]);
+  }) 
+}
 init()
