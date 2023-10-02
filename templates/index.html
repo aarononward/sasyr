@@ -20,31 +20,31 @@
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-2">
         <div class="well">
           <h5>PCA Cluster Chart:</h5>
           
-          <div class="PCA-bar">
+          <div class="PCA-bar" style="position: relative; height:40vh; width:80vw">
             <div id="bar"></div>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3" style="position: relative; width:80vw">
         <div class="well">
           <h5>Cluster ID No.:</h5>
           
           <select id="clusterDataset" onchange="clusterOptionChanged(this.value)"></select>
-          <div class="cluster-radar">
+          <div class="cluster-radar" >
             <div id="clus-radar"></div>
           </div>
         </div>
       </div>
     </div>
     <div class="row">  
-      <div class="col-md-4">
+      <div class="col-md-4" style="position: relative; width:80vw">
         <div class="well">
           <h5>Position:</h5>
           
@@ -56,7 +56,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-5" style="position: relative; width:80vw">
         <div class="well">
           <h5>Player ID No.:</h5>
           
@@ -64,11 +64,11 @@
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h3 class="panel-title">Player info</h3>Info</h3>
+            <h3 class="panel-title">Player info</h3>
           </div>
           <div id="player-info" class="panel-body"></div>
         </div>
-        <div class="player-radar">
+        <div class="player-radar" >
           <div id="pla-radar"></div>
         </div>
       </div>
@@ -78,7 +78,7 @@
   
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script type = "text/javascript" src="../static/js/app.js"></script>
+  <script src="static/js/app.js"></script>
   
 
 </body>
