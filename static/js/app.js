@@ -30,7 +30,7 @@ function positionOptionChanged(pig){
 };
     
 function playerOptionChanged(sheep){
-  console.warn("playerOptionChanged to ", sheep)
+  // console.warn("playerOptionChanged to ", sheep)
   //Clear the demo table
   clearDemoTable();
 
@@ -165,8 +165,8 @@ function clusterRenderer(selectedValue) {
   fetchPromise(cluster_url).then((cluster_json) => {
     cluster_data = cluster_json;
     cluster_data_keys = Object.keys(cluster_data);
-    console.warn("keys of cluster_data > ", cluster_data_keys);
-    console.warn("selectedValue > ", selectedValue);
+    // console.warn("keys of cluster_data > ", cluster_data_keys);
+    // console.warn("selectedValue > ", selectedValue);
     const isSelectedValue = (element) => element === selectedValue + "";
 
     let selectedValueIndex = cluster_data_keys.findIndex(isSelectedValue)
@@ -185,10 +185,10 @@ function clusterRenderer(selectedValue) {
       }   
     }
     
-    console.warn("cluster_values 1>", cluster_values)
-    console.warn("cluster_values[selectedValue] 2>", cluster_values[selectedValue])
-    console.warn("cluster_measures>", cluster_measures)
-    console.warn("selectedValueIndex>", selectedValueIndex)
+    // console.warn("cluster_values 1>", cluster_values)
+    // console.warn("cluster_values[selectedValue] 2>", cluster_values[selectedValue])
+    // console.warn("cluster_measures>", cluster_measures)
+    // console.warn("selectedValueIndex>", selectedValueIndex)
 
     //build the cluster radar chart
     clusterRadarBuilder(cluster_values[selectedValueIndex], cluster_measures)        
@@ -214,8 +214,8 @@ function positionRenderer(selectedValue) {
   fetchPromise(position_url).then((position_json) => {
     position_data = position_json
     position_data_keys = Object.keys(position_data);
-    console.warn("keys of position_data > ", position_data_keys);
-    console.warn("selectedValue > ", selectedValue);
+    // console.warn("keys of position_data > ", position_data_keys);
+    // console.warn("selectedValue > ", selectedValue);
     const isSelectedValue = (element) => element === selectedValue + "";
 
     let selectedValueIndex = position_data_keys.findIndex(isSelectedValue)
@@ -235,10 +235,10 @@ function positionRenderer(selectedValue) {
       }   
     }
     
-    console.warn("position_values 1>", position_values)
-    console.warn("position_values[selectedValue] 2>", position_values[selectedValue])
-    console.warn("position_measures>", position_measures)
-    console.warn("selectedValueIndex>", selectedValueIndex)
+    // console.warn("position_values 1>", position_values)
+    // console.warn("position_values[selectedValue] 2>", position_values[selectedValue])
+    // console.warn("position_measures>", position_measures)
+    // console.warn("selectedValueIndex>", selectedValueIndex)
     //fill position radar chart
     positionRadarBuilder(position_values[selectedValueIndex],position_measures)        
   })
@@ -262,8 +262,8 @@ function playerRenderer(selectedValue) {
   fetchPromise(player_url).then((player_json) => {
     player_data = player_json
     player_data_keys = Object.keys(player_data);
-    console.warn("keys of player_data > ", player_data_keys);
-    console.warn("selectedValue > ", selectedValue);
+    // console.warn("keys of player_data > ", player_data_keys);
+    // console.warn("selectedValue > ", selectedValue);
     const isSelectedValue = (element) => element === selectedValue + "";
 
     let selectedValueIndex = player_data_keys.findIndex(isSelectedValue)
@@ -282,10 +282,10 @@ function playerRenderer(selectedValue) {
       }   
     }
 
-    console.warn("player_values 1>", player_values)
-    console.warn("player_values[selectedValue] 2>", player_values[selectedValue])
-    console.warn("player_measures>", player_measures)
-    console.warn("selectedValueIndex>", selectedValueIndex)
+    // console.warn("player_values 1>", player_values)
+    // console.warn("player_values[selectedValue] 2>", player_values[selectedValue])
+    // console.warn("player_measures>", player_measures)
+    // console.warn("selectedValueIndex>", selectedValueIndex)
   
     //call playerRadarBuilder function 
     playerRadarBuilder(player_values[selectedValueIndex],player_measures)        
@@ -309,13 +309,14 @@ function demobuilder(selectedValue){
   //create a variable to hold the players
   let players =[]
   
-  
+  console.warn("demo builder > ", selectedValue)
   //run fetchPromise() function to grab data and store it in player_personal_data variable
   fetchPromise(player_personal_data_url).then((player_personal_json) => {
     player_personal_data = player_personal_json
-    console.warn("demo builder > selectedValue", )
+    // console.warn("demo builder > selectedValue", )
     //create list of players from datasetselectedValue
     let player_id
+    console.error("dood player_personal_data > ", player_personal_data)
 
     //split the key by ,
     let player = selectedValue.split(',')
@@ -323,14 +324,15 @@ function demobuilder(selectedValue){
     //single out the player_id
     player_id = player[0].replace('(','')
     console.warn("demo builder > selectedValue player id", player_id)
+    console.error("doodlool player_personal_data > ", player_personal_data[player_id])
 
-
+    let demoInfo = player_personal_data[player_id];
     //grabbing the keys as the player identifiers
     players.push(Object.keys(player_personal_json))
-    console.warn("players demo builder > players", players)
+    // console.warn("players demo builder > players", players)
     //setting the player identifier to the id
     players = players[0]
-    console.warn("players demo builder > players[0]", players)
+    // console.warn("players demo builder > players[0]", players)
 
     // Loop through the outer dictionary
     for (const player in player_personal_json) {
@@ -355,6 +357,9 @@ function demobuilder(selectedValue){
 
         //fill the player_personal_values variable
         player_personal_values= Array.from(new Set(Object.values(innerDictionary))) 
+
+        // console.warn("player_personal_measures >", player_personal_measures)
+        // console.warn("player_personal_values >", player_personal_values)
       }
     }   
       // //Match the chosen id to the sample id
@@ -403,9 +408,17 @@ function demobuilder(selectedValue){
           //}
       //Connect to the table container  
       let panel_body = document.getElementById('player-info');
-      
+      // https://stackoverflow.com/questions/2554149/how-can-i-change-div-content-with-javascript
+      panel_body.innerHTML = `<p> active: ${demoInfo.active} </p><p> affiliation: ${demoInfo.affiliation} </p><p> college: ${demoInfo.college} </p>`+
+    `<p> country: ${demoInfo.country} </p><p> date: ${demoInfo.date} </p><p> firstname
+    : ${demoInfo.firstname} </p><p> height: ${demoInfo.height} </p><p> jersey: ${demoInfo.jersey} </p>
+    <p> lastname: ${demoInfo.lastname} </p>
+    <p> pos: ${demoInfo.pos} </p>
+    <p> pounds: ${demoInfo.pounds} </p>
+    <p> pro: ${demoInfo.pro} </p>
+    <p> start: ${demoInfo.start} </p>`;
       //Add the table to the container
-      panel_body.appendChild(table);
+      // panel_body.appendChild(table);
   });
 } 
 
@@ -526,6 +539,7 @@ function init() {
   //create empty variable to store player measures
   let player_measures
   
+  let first_selected_player
   //run fetchPromise() function to grab data and store it in player_data variable
   fetchPromise(player_url).then((player_json) => {
     player_data = player_json
@@ -564,10 +578,10 @@ function init() {
       playerDropdownMenu.append('option')
                
       //Add the player_id as an option
-      .text(player_id).property("value",player);
+      .text(player).property("value",player);
     }
     playerRenderer(player_list[0])
-
+    first_selected_player = player_list[0]
   }) 
   
 
@@ -622,7 +636,7 @@ function init() {
       }
     }
     //Fill the Demographic table
-    // demobuilder();     
+    demobuilder(first_selected_player);     
 });
 }
 init()

@@ -29,9 +29,9 @@ def home():
 def player_personal_data():
     return send_file('static/data/player_personal_data_t.json')
 
-@app.route("/pca_clusters")
-def pca_clusters():
-    return send_file('static/data/player_pca_clusters')
+# @app.route("/pca_clusters")
+# def pca_clusters():
+#     return send_file('static/data/player_pca_clusters')
 
 
 @app.route("/cluster_stats")
