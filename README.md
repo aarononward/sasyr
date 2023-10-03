@@ -62,7 +62,8 @@ Our app.js is the backbone of our basketball player analysis web app. It handles
 In this notebook, we accessed data about NBA players from an online source using an API. We specifically requested information about players from the USA and received it in a format called JSON. Then, we organized this data into a structured table, making sure the data types were correct. To handle columns with nested dictionaries, we've used functions to split and concatenate them. After some cleaning, we've converted date columns and adjusted height measurements. Lastly, we've saved the refined player data as a CSV file for further analysis. This Python script is an integral part of our data collection and preprocessing pipeline, laying the foundation for in-depth NBA player analysis.
 
 ### 2-NBA Player & Position Statistics DF.ipynb
- In this file, we first loaded a CSV file containing NBA player IDs. Then, we used an API to fetch detailed statistics for these players during the 2021 season. We combined this data into a structured DataFrame, cleaned it up, and calculated some additional stats like field goal percentage (fgp) and free throw percentage (ftp). After that, we grouped the data by player and saved the aggregated statistics in another CSV file.
+ In this file, we first loaded a CSV file containing NBA player IDs. Then, we used an API to fetch detailed statistics for these players during the 2021 season in JSON format. Try/Except was used for API error handling.
+ We combined this data into a structured DataFrame, cleaned it up using similar data processing steps as #1 above like - convert_to_decimal function with split for 'minutes', concatenate, astype, set_index etc., and also calculated required additional derived stats (Ex: field goal percentage (fgp)). After that, we grouped the data by player and saved the aggregated statistics in another CSV file for both clustering use and final tables for visualization.
 
  ### 3-K_means_clustering.ipynb
 
