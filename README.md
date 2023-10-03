@@ -1,8 +1,7 @@
-Remember to add an api_keys.py file to your local repository to use the player dataframe code
-# Basketball Player and Position Clustering
+# Basketball Player Stats Clustering
 
 ## Overview
-Welcome to the Basketball Player Analysis Web Application! This application provides an interactive platform to explore and analyze basketball player data. You can visualize player clusters, compare player positions, and view individual player profiles.
+Welcome to the Basketball Player Analysis Web Application! This application provides an interactive platform to explore and analyze basketball player data. You can visualize player stats clusters, compare player position stats, and view individual player profiles.
 
 ## Features
 
@@ -36,7 +35,7 @@ Installation:
 - Install the required python packages
 ### Usage
 - Start the flask web application `Python flask_app.py`
-- Access the web application in your browser by visiting [http://127.0.0.1:5000](http://127.0.0.1:5000)
+- Access the web application in your browser by visiting [http://127.0.0.1:5000] (http://127.0.0.1:5000/charts_page)
 - Use the dropdown menus to explore player clusters, positions, and individual player profiles.
   
 ### API Endpoints
